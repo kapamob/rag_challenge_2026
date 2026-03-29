@@ -21,3 +21,6 @@ Both solutions were developed with AI coding assistants and explore different ap
 - **Retrieval**: Hybrid (BM25 + Vector search)
 
 See each solution's README for detailed setup and usage instructions.
+
+
+AKT team.
