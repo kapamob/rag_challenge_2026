@@ -1,0 +1,14 @@
+{
+  "run_id": "v3",
+  "questions": 25,
+  "docs": 30,
+  "retrieval_mode": "hybrid",
+  "avg_ttft_ms": 1092.8,
+  "avg_total_time_ms": 1270.2,
+  "avg_retrieved_pages": 6.0,
+  "null_rate": 0.28,
+  "input_tokens_total": 46052,
+  "output_tokens_total": 329,
+  "estimated_cost_usd": 0.0071,
+  "submission_path": "./experiments/v3/submission.json"
+}

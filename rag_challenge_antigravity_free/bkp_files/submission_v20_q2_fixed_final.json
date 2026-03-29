@@ -1,0 +1,31 @@
+{
+  "architecture_summary": null,
+  "answers": [
+    {
+      "question_id": "331b267822eaa013b4a79d92f2ac5118052a57150df9a29d7d11c531f02d23cf",
+      "answer": "2020-09-06",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 100,
+          "tpot_ms": 10,
+          "total_time_ms": 1982
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "897ab23ed5a70034d3d708d871ad1da8bc7b6608d94b1ca46b5d578d985d3c13",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "gpt-4o-mini"
+      }
+    }
+  ]
+}

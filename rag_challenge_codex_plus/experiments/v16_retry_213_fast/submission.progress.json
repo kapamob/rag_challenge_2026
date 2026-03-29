@@ -1,0 +1,6002 @@
+{
+  "architecture_summary": "v16_retry_fast regex-routed: docs_list-first (rules) + per-document indices + constrained retrieval",
+  "answers": [
+    {
+      "question_id": "8f95ae2a9d0a646b897457ef20d68e656b93a0ac87a0eae99c05016f24a8e612",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "1fbae05f38185db6113ecb323f836cd8c5d188037921f5c5c5b7e0a812d9aa14",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "af7d4a3408d435ad4e6d99daf2ab371421550d066378596fc903f046e45d57e0",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "2a2461886df041f237b8f2791c68315070c99f91a719f7d375c3ecdbae72a439",
+              "page_numbers": [
+                1,
+                3,
+                4
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "102e2fcc4d0ee868876f4b0221cdad9aef8d5d4bacc85cf873c8baaee1ad3f76",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "5d3df6d69fac3ef91e13ac835b43a35e9e434fbc7e72ea5c01e288d69b66e6a2",
+              "page_numbers": [
+                1,
+                5
+              ]
+            },
+            {
+              "doc_id": "5f2e0f8fe61acf2975a8b3a1a4f51ff3fe01961d220da1ec068cab0f398d6177",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "9551d92018ff1f4c062e1749416eaf9773408ba8ce7401fcc363c7aecee7e668",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "7762b20eeb3ca0cb3dd62a4b079bf01d6b5e7f8707d7be77ad9c6ff1e230aabe",
+              "page_numbers": [
+                2,
+                3,
+                27
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "4e30af687c758d047a3c54fae57bfb115114984af64e0dcd52f50de5c3b4ff07",
+      "answer": "“Counterclaim”)",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "44927ba58d3565f435c12443d5fc44454516ee3d35512f788d52dfbdb4f5a14c",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "ad76dc7093851d116c8878802b815608adceed54f6b5195ae04ffec28ae25d32",
+              "page_numbers": [
+                2
+              ]
+            },
+            {
+              "doc_id": "b9cde965ff214511b3517622bb7c5d5d47f6d229ca3be5d3f126f90ba113499c",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "33c774d5b5c3ddffb951c744e84baa9fce56fcc81db98898b3bbe557beab9127",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "68976d0ef40230a57bf5d2cd2b8bbcb5b875fcf476d9aae4ea0b8dacb3787c23",
+              "page_numbers": [
+                15,
+                23,
+                32
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "deea5ab63979d8fe33a4832dac063dafbfb72e6249bb914588fc3465bacf3e8d",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "1fbae05f38185db6113ecb323f836cd8c5d188037921f5c5c5b7e0a812d9aa14",
+              "page_numbers": [
+                1,
+                2,
+                8
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "8f918b992b3b0fa40a3696d43f741b6c7ba95966b16db75d58d64092fa2d5914",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "bfe9f14f21d0d5341c3737eff60b396a9a5173f4ae5ff3f1bc2ab69f99e7a4c2",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "0f58b5c2e3c1a771d89b0550e87efcd299d56bb4de4788044ef9bfeb2e85f760",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "09660f78c26cd56c08c7253ed21ba01fb246092f482ccd8acd8e6f9b6fd2d917",
+              "page_numbers": [
+                7,
+                8,
+                11
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "613217268c14e7aa3f190f7d8b43610f2ffdae2cf15a4f8d7a3acfa52cefeedb",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "10f73da4faa00b60b5b05a114bc978e8f2373a497764e380425574d507c12991",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "c9de60755821a1cdb952b721e961b3b7cc3b6d41ec49b909442bbdd9d597aacf",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "26dbc112e53aac8fb48fdaaba20f55beebcab2724934bbb19f4accbd671d38be",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "d4281f95058201fc218508fadd893856a5cc0cafabf223931f00c4b1fd726eae",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "09660f78c26cd56c08c7253ed21ba01fb246092f482ccd8acd8e6f9b6fd2d917",
+              "page_numbers": [
+                7
+              ]
+            },
+            {
+              "doc_id": "ec70dca8ed05590449db65f2e6cae5213af3ca12c6bf2dc176f07f460668ac9a",
+              "page_numbers": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "7037e866bfdb7309d18b498da0f77f4ef8f922247414112b4aa549e0b70eafb7",
+      "answer": [
+        "Olympio",
+        "Olwin",
+        "Claim No",
+        "Claimant",
+        "Defendant"
+      ],
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "55fa145c3f08b4ca22bba9263dbcdb3ec4f9d9c762c73ae20e8e6f8019c010f7",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "a7ba23a6d0fbeff843c3b22057f514149e64e58d29845586afd87e15f10626bd",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "8e18998606b040f5a6d748ccad5c991462aec551a0381ebed6d3f7eac6bab400",
+              "page_numbers": [
+                1,
+                4,
+                9
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "77ca3f171888f3c0d58a1f62693696002e4e08294af39b4b1670f67abbbf3eee",
+      "answer": 6.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "09660f78c26cd56c08c7253ed21ba01fb246092f482ccd8acd8e6f9b6fd2d917",
+              "page_numbers": [
+                2,
+                7,
+                11
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "eb08a45bbcd453f08074fc54c0c3614e3fd9f5ffe6c5a41a0ec668bd471fae02",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "665e1be417bb694d30926dec91130ad36cb25567e49e0e20aabed26f2830fb4c",
+              "page_numbers": [
+                19,
+                20
+              ]
+            },
+            {
+              "doc_id": "b02055aab210dceb055711108f8d4b8a75e8b3c935efe5cab3291ac9a07abada",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "a45d272c59553c6e5137bc9b733f8dc81ddcffe3ce14f43572a1cace1a5da14d",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "e9a32d22eb9bac59756c1fe25e6d5ffd09d75582efcbe191fe8f078145cc08a5",
+              "page_numbers": [
+                1,
+                2,
+                5
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "d7a632bf591981a53e78090e33a53932233b6556eae9094f51f9a0a2481ad429",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "8f8837a8ccf2a27e9f7264f569a2df49aea92c1d6ecee753c6e307c9c5c37b87",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "ec70dca8ed05590449db65f2e6cae5213af3ca12c6bf2dc176f07f460668ac9a",
+              "page_numbers": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "ef01d817f13701e49ab8305bf2112bc286a9347d1dbad383222297089e5b5448",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "9417bbd6ea5a85f99bc8ed14f9abca1cc664c175dbcde959bb924025321475e1",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "65f3f4acfcaca7fc9488e275643135ea7e1d30323e4f4c2cc04d7fc16844e373",
+              "page_numbers": [
+                2
+              ]
+            },
+            {
+              "doc_id": "96be25a94c84742ae6b7b6e2275376c2393312c7097682f1135590d76d55e727",
+              "page_numbers": [
+                1,
+                5
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "16c1417ba538c9c965a7e7432ab8cdbb04e3ac568e79de2b0df54c96864ecdeb",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "fb4d9cecc1001226ec3b64a46b2f9eca882baaae39255fa5d048bb1eba649204",
+      "answer": "Issued by:",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "e9a32d22eb9bac59756c1fe25e6d5ffd09d75582efcbe191fe8f078145cc08a5",
+              "page_numbers": [
+                1,
+                2
+              ]
+            },
+            {
+              "doc_id": "f4c4d051d514270964adcf58e124569e396602340b7d9172671759de10a95897",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "b730567fe49a441f8da7846f7fe9a8dac6bb9e74c340edc7466400e615f3b069",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "f8d3778ec2891efd616f8f34595cb80a61d49cde1e9bef7e857718c6337397fe",
+              "page_numbers": [
+                1,
+                4,
+                5
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "b7d0381d8ead47fae8e9751022ceb797ee850bc8f89c9fc0842a25e62aa699b5",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "ec70dca8ed05590449db65f2e6cae5213af3ca12c6bf2dc176f07f460668ac9a",
+              "page_numbers": [
+                1,
+                2,
+                5
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "8a57f2064f427613f260d855c753b26c955121bc191457f686e7550f681872e4",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "31526de2d2c98435c326f9d7bb69b1174495a31cd99714a64cf038fbcd8641b8",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "a4145d2325e040c24a4b5cc753d88f58bf5777ab7ad7053a521bb4f584f7ab6b",
+      "answer": "Release Agreement. Further and in any event:",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "09660f78c26cd56c08c7253ed21ba01fb246092f482ccd8acd8e6f9b6fd2d917",
+              "page_numbers": [
+                2,
+                7,
+                11
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "d6a05f084a294d81489e49bab546972548de6e5982fd053e0fb02a99e1e72055",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "ea81bf0f8c1d423dd61e6d2901ca7872209185eb8e25e05a672148a9fb3e635e",
+              "page_numbers": [
+                1,
+                7,
+                12
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "4b970a34170e94e43e08db1f2dabf7faffb5b11216d98179b43415b201ed15a7",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "bd2d222ee0a636a745434cfb457321cd658db5bb32b5f0a3f5643236cc1503d8",
+              "page_numbers": [
+                1,
+                2,
+                5
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "d00c6ebcbae1e9f0fce53bcb991f98ba20af9b471b8f13afaffabf955fc30eb8",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "82dc415c01f3958cefe28b2a49e46e8f750e853447cb6df034d006f5a9a1da8c",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "f4c4d051d514270964adcf58e124569e396602340b7d9172671759de10a95897",
+              "page_numbers": [
+                2,
+                3,
+                4
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "0b321e55ba86853197f4369672bc5c72688259b5a8780618a6830dddaffa83d4",
+      "answer": [
+        "Order",
+        "Justice Shamlan Al",
+        "Sawalehi",
+        "April",
+        "Claimant"
+      ],
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "0fab7473adefdc8ab2150cb26aac46cf3f6b5c1da374abb1ec217448ae3c2869",
+              "page_numbers": [
+                2,
+                9,
+                14
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "fd8e4eb0382e65fd7c6e594fad7cb466100e9157285d5b1910d5e43c02f10826",
+      "answer": "CFI 016/2025 Omar Ben Hallam v Natixis",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "6248961b681ea0deb189f354be0c8286f35974dcdb211c13c921c3dd0e566a6e",
+              "page_numbers": [
+                1,
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "aa4861a0cd77b29b756e1ca421f5443cbb9a2b501a34387a212c00da8889a531",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "14e9a749348b213f707748608a0823fe7d8b0c1000d968c89d95162762d27b13",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "62d4492fbd9570bdc5d0c9ee17e3969b2238bc5fa12416de9a0fd27adf56deeb",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "5872902213e6e981741174b0ca77416b18c0593cd6437111e388c935e4b3d383",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "55fa145c3f08b4ca22bba9263dbcdb3ec4f9d9c762c73ae20e8e6f8019c010f7",
+              "page_numbers": [
+                1,
+                2
+              ]
+            },
+            {
+              "doc_id": "f4c4d051d514270964adcf58e124569e396602340b7d9172671759de10a95897",
+              "page_numbers": [
+                4
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "39b054bcbbe6049d0cf80c98e00cc1a98e860eda012d30a1137efb215a5a5e16",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "0495178d25d14b7c393835f2fdd159e2c24a8dccedab8edf744cbb6c86c87301",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "0a59bb9e8700bdbde4b2cd2ccb3ef6d0e80558a346cf7308f4ff2a0868b1a76c",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "b212f401e34dc75bb9b65c3c45072125db68094f45e0587ab93669c97da650ce",
+              "page_numbers": [
+                1,
+                8
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "c64c0caac6f8677183203ac4620945f941a2a657559578405922b1b38ee770cb",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "d32e76d495ac7d855d805fb71682b98d254520e3799aa4529ebc983212648335",
+              "page_numbers": [
+                1,
+                4,
+                10
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "bff9362ec53b2305c38f431928ba98d03e6d39b7f5ccd11412e3e74a6de7b97e",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "5f6b9a0c903c35b608e97deeaf9a10f59ae7a798da8373a9a5621c4e8cb515be",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "7a288e5ccc9cf410418f9786f72eaf82becf52c4070446a61bc9eecee004601f",
+              "page_numbers": [
+                2,
+                4,
+                12
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "7991cee33aff646be247f71e1804651bbbadf1631da00a7b6fba48438f6d3d0b",
+      "answer": 22.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "8e18998606b040f5a6d748ccad5c991462aec551a0381ebed6d3f7eac6bab400",
+              "page_numbers": [
+                1,
+                5,
+                9
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "15968b4ad6da8abe96510757f17bdb7915991f7d079058a31127f439adf660ea",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "62d4492fbd9570bdc5d0c9ee17e3969b2238bc5fa12416de9a0fd27adf56deeb",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "3db41cf730f711e648e82717530910c0c45e564e43d50440b8ccfc06c461bb32",
+      "answer": "IT IS HEREBY ORDERED THAT:",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "3a574fc4f0baa5ec7ff0dcc822d7c55e4f9c493c24addc217c8df3d848c16fa5",
+              "page_numbers": [
+                1,
+                2
+              ]
+            },
+            {
+              "doc_id": "f4c4d051d514270964adcf58e124569e396602340b7d9172671759de10a95897",
+              "page_numbers": [
+                4
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "9290644a4b39075e5a26596524a1d4517198c4b168704e948b4b392d1f3894cd",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "ea81bf0f8c1d423dd61e6d2901ca7872209185eb8e25e05a672148a9fb3e635e",
+              "page_numbers": [
+                1,
+                8,
+                12
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "c86c146edd1bfdf109d1107733b29ccfb1fb3ae90920af33a280a6c694079d4a",
+      "answer": "Interest, Costs and other relief",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "37f14b6d6d2a99ea50a8cbe6221c0bef5a0b75a65e270e9b1144b6c2acdb2f57",
+              "page_numbers": [
+                2,
+                10
+              ]
+            },
+            {
+              "doc_id": "4cccd40fc2bd7aee0287bbff7ac8d922bb4ea4e4646c96af7c16784657d6e884",
+              "page_numbers": [
+                2
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "3bdf7da03e799e7babf70ed900f70bea578769bcc35a07fbaefbaed59c82a005",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "443e04bc1a78940b3fcd5438d24b6c5f182a276d354a3108e738b193675de032",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "b02055aab210dceb055711108f8d4b8a75e8b3c935efe5cab3291ac9a07abada",
+              "page_numbers": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "54928b1292fbdc0b28851cea88c1650cc78158cad7aa822ec4c7add691b47e9b",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "e4741149b9a44c7cd24286313a2c89e92923b8e99786d4b02107f093aa8293c2",
+              "page_numbers": [
+                2,
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "6c5ae2dec1c7a407d1a74906bd1d9afb59d2b9ca5c0d4c90a96fea7c5c8340bf",
+      "answer": 26.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "6c3c49e1a35a1e3577a0412f97b6e3d91cae11d24430c7390d7865c992b1a515",
+              "page_numbers": [
+                2,
+                3,
+                4
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "8c6f741aee7c566e3711533a9fddff594efb57f68f07cf6300209e116169faad",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "e9a32d22eb9bac59756c1fe25e6d5ffd09d75582efcbe191fe8f078145cc08a5",
+              "page_numbers": [
+                1,
+                2,
+                7
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "602869c092adae0f0fd74b15a9581433c1f6bcb8eb1b2f310100ffeb41824e25",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "c95fb33ec7ce14ce0ca49e4e200a6fa59f16db779fdada83b00654e6eeb6bdb0",
+      "answer": "ARB 014/2025 (1) Obert (2) Ona v Ondray",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "62d4492fbd9570bdc5d0c9ee17e3969b2238bc5fa12416de9a0fd27adf56deeb",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "911cb65a2d832d0d5e46da43cefc4a6bbf6058a02f1ba1eba46ba29f7c30f138",
+      "answer": "2026-02-06",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "efa713ea279d5057b4127fb9f7308382724897ee37ebc9a5834b585a9af4563c",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "64dbaa53f3c4cd00df383ea74adb8f11dfe3fe0a4b78f6f7214a134aeea03463",
+      "answer": "Oleta v Onesimo [2024] DIFC SCT 454",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "f4c4d051d514270964adcf58e124569e396602340b7d9172671759de10a95897",
+              "page_numbers": [
+                1,
+                2,
+                4
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "72488cc3d196da3f7fe8eb9feeaa512d9030b52263684ffedecfa0c0b9b393e9",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "8b3eae61bcb32127c4de9419e743e94afd75d4a376c0a64d8419d0557c86f334",
+      "answer": "ARB 014/2025 (1) Obert (2) Ona v Ondray",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "62d4492fbd9570bdc5d0c9ee17e3969b2238bc5fa12416de9a0fd27adf56deeb",
+              "page_numbers": [
+                1,
+                2
+              ]
+            },
+            {
+              "doc_id": "ec70dca8ed05590449db65f2e6cae5213af3ca12c6bf2dc176f07f460668ac9a",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "11ad83676a1cb695ab507348019b564c92c83990db6a82287ad8655bdc9b9795",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "b9fdb42c55d635bd14ae3074bc1ee15f7fcafc647b4d839da882598c05bde6f4",
+              "page_numbers": [
+                1,
+                2,
+                5
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "630f7ece494028151592e45e2a809c541dbd9af98d875093b474fc04fc51df50",
+      "answer": 3.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "b9fdb42c55d635bd14ae3074bc1ee15f7fcafc647b4d839da882598c05bde6f4",
+              "page_numbers": [
+                1,
+                2,
+                5
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "2ea9caf3bf0f7d4e7882854078cee907497c81d557615889993cb0fdaffbbbb4",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "43b9033ec25f016635f416e4b49558f5bc29f6c55bbd72bea1d1d840b170a371",
+              "page_numbers": [
+                1,
+                2
+              ]
+            },
+            {
+              "doc_id": "c66b8374d326d16ec5ff48195825798c3ba696c787ad8a59c23a7a2908f34a0d",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "8e6352898884582e89750ad7bfafee593675442d7ed14bf3c08a89984ae42747",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "8f8837a8ccf2a27e9f7264f569a2df49aea92c1d6ecee753c6e307c9c5c37b87",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "9ab1e0e642d7b5b6366bbb8b5dff33741664e7e7ce2b408463958d723a742879",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "58eae81bf668e7f6c58619f419a49b5e35e2e5c9c7475475ace28ec562580545",
+              "page_numbers": [
+                1,
+                3,
+                4
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "54cbb7fec00eee63eaa5521c698fdb1ee4744bc2ac0c691fe78eb6b427c53b4c",
+      "answer": 41.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "520092b050dba213c387126ca1216326e6bad58ab955dbf77232270dcfe616e6",
+              "page_numbers": [
+                30,
+                34,
+                45
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "982082afb838b8c7b833eee035367fc559a4c62d8a523ed9fcad96a56a6e29e0",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "0fab7473adefdc8ab2150cb26aac46cf3f6b5c1da374abb1ec217448ae3c2869",
+              "page_numbers": [
+                1,
+                2
+              ]
+            },
+            {
+              "doc_id": "51d4b9c700ef128624b2b79f6caaf68f2cb879fce9e5329aefce57439322a162",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "d3f81b0cfd1a5573a4a72ccb154e491b8d100b2f647ba56691f65ee201f6f2c2",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "890c80a61de86cc86adde4f02831193cf4ef75ba74f28df29f7c5cfb307d7c87",
+              "page_numbers": [
+                2
+              ]
+            },
+            {
+              "doc_id": "b4d7a422e0ede31c3dabe49ce9741fd6fd379f91ba352d050e56697559f2dbb2",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "f283b88843e999a36801cebb852796fc645b04119cc4c6196f491d8d073f33cc",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "9b35f67ff0a7be83cd78daeca1114d6202f8b3b53a5564dc4bf10d890d0a2892",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "62d4492fbd9570bdc5d0c9ee17e3969b2238bc5fa12416de9a0fd27adf56deeb",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "70f6521fa092778832bc0c16d954c6695abfddb72406180774fbf19ee95009e9",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "330ecb8bc8473a426561b723fcf7f8439d602f721b2897d44185019d1b62b3bc",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "897ab23ed5a70034d3d708d871ad1da8bc7b6608d94b1ca46b5d578d985d3c13",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "9f41ffdf37412adf838e9851fd7f6b0aa9f5514eed54724f81a69917cffebcf9",
+              "page_numbers": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "2d3456c0a250fcf024d746b17714f4fd288770135b954fb0d3a2a75e6c1624fe",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "1da6ceb1941733d8c683751bd27f66a64fdf8e68a114e0abdae8efb598ebaf9c",
+      "answer": 16.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "1635b7381219c2702f25f11e876b3f6c4e99deef68b3f7d424fa32a81952dd64",
+              "page_numbers": [
+                1,
+                5,
+                7
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "1d558bd56bd1f1571cc531457b05aa2ce1c18aaf988f9500fae2a468eac89814",
+      "answer": 3.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "7b30756e5285fdf5a2e546427d18b1af24c814a3cebadacb2cccde126ad91e19",
+              "page_numbers": [
+                2
+              ]
+            },
+            {
+              "doc_id": "cf6fe826c8d98447fb2509c368437743906faf89a74ea51d02c7bfbe2565ce6d",
+              "page_numbers": [
+                2
+              ]
+            },
+            {
+              "doc_id": "dc942610b9f6ef0fffc048df45958b750d18b26576894e6f994fa72d42222a95",
+              "page_numbers": [
+                4
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "5b6f69e0371ad47a7508178bc349327515e9e5e121e4c9d2fa1e394e1e178442",
+      "answer": 16.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "ddd12664d0402e2b4935a0716e0b488a9a3071bf4d0a06d58478f02da7873fd4",
+              "page_numbers": [
+                7,
+                18,
+                19
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "55e6776c2d2bcebc4df196554cd83e88beabfb5c95124f448f08ed45638971e3",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "dbe11c5a8dedb41beb61f9ceb04121b49b037741af11efc934962fa1b4a5f2c2",
+              "page_numbers": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "b4dab0529598099030493208e278621748be3b59445934e8eea0b457f688ae3a",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "716242aec01f2a1202d6aba62099101d4d7e52005555b43122c3bff05d89d9af",
+      "answer": 651.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "ad76dc7093851d116c8878802b815608adceed54f6b5195ae04ffec28ae25d32",
+              "page_numbers": [
+                19,
+                22,
+                23
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "c2f4d2f3fa07cf233e14566a81f47068f4f534d87d03d4d57e109aff0fdf782a",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "65f3f4acfcaca7fc9488e275643135ea7e1d30323e4f4c2cc04d7fc16844e373",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "a9614c389f25c48d7e6d8d95befcea655c323cb4c37cfe1e90f0fd81a5cb3b9d",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "9f41ffdf37412adf838e9851fd7f6b0aa9f5514eed54724f81a69917cffebcf9",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "bd2d222ee0a636a745434cfb457321cd658db5bb32b5f0a3f5643236cc1503d8",
+              "page_numbers": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "d92ad86a0b5507b098613127476f189436ef49a7ea3db12514ad3586836e685b",
+      "answer": 27.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "96be25a94c84742ae6b7b6e2275376c2393312c7097682f1135590d76d55e727",
+              "page_numbers": [
+                2,
+                5,
+                9
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "af74f08b556ed7dd3f67c9e7526c1d5e599c79b3146d826d40e48b5806a14bbe",
+      "answer": "AUGUST 21, 2025 ARBITRATION - ORDERS",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "ec70dca8ed05590449db65f2e6cae5213af3ca12c6bf2dc176f07f460668ac9a",
+              "page_numbers": [
+                1,
+                3,
+                5
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "4787cc1c82c9bf1e3498e7c011c1ed2bdb35c6486337a99c88886b5f980320e6",
+      "answer": 41.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "520092b050dba213c387126ca1216326e6bad58ab955dbf77232270dcfe616e6",
+              "page_numbers": [
+                39,
+                44,
+                45
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "bb472d3ef8c3a8eab47556adcddb31639a648182529c5ff6e921648c9f2c396a",
+      "answer": 42.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "7ff0220f63290431bb5218982a2a9bc2c62c26679b3fe47cb29f0b305cf7bf77",
+              "page_numbers": [
+                3,
+                4,
+                8
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "2ff713deea65fee00135143ccc245cfd9cd0f4fe6e98d9d454d94d2e658c14e4",
+      "answer": "Issued by:",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "0a59bb9e8700bdbde4b2cd2ccb3ef6d0e80558a346cf7308f4ff2a0868b1a76c",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "4cccd40fc2bd7aee0287bbff7ac8d922bb4ea4e4646c96af7c16784657d6e884",
+              "page_numbers": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "74ae4fe3ece78ea841d67589216e0c3cea1a32226451f8078a9f63f7d663f101",
+      "answer": [
+        "Judgment",
+        "September",
+        "Appellants",
+        "Application No",
+        "April"
+      ],
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "717dc41cb19258ad4e8901597d165f94cfc4f37074f3cf0b5d2e8f42b17e547a",
+              "page_numbers": [
+                2,
+                8,
+                17
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "0d7385df8faac8388dd114bbdd0797935edfbc0124c7bf0d0a65a36f5fc0c154",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "78461539a8b7238c314b7dd56483e1682c5e1ce7f3cf8fc6947e22c0ac5d0d18",
+              "page_numbers": [
+                1,
+                2,
+                4
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "1d12e261ed094e2e563e76060e60bc6f9f436025b20592722655b52940d84577",
+      "answer": "2025-06-16",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "2ed837479df307ff0affdb7d50bf6759c16ae91968a0c96e3f33d047e21b109e",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "b03c6e78f83f3074fec2193aa49b632163b8628daa1b5e6725cfce7a8e055d6c",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "2a2461886df041f237b8f2791c68315070c99f91a719f7d375c3ecdbae72a439",
+              "page_numbers": [
+                1,
+                3
+              ]
+            },
+            {
+              "doc_id": "4e30baac0c5eb8273894d8f7e17d4066356c92eb15eedcc802abf45cf942da43",
+              "page_numbers": [
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "b41a53211d137ba080ffc9d240bde70afd29fe9785d68e95876cba2e7c038d61",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "7e4be4cf7e556ae4e213ae1d0d504af4c429599f61297c685ab0fc82028bbc65",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "0428cdda3cb116062c96885d16d8bb023f6a4a089d40f8129e0253e4fb165d9d",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "5cf25531f59a1746d3af4ea82e857ddc0bc5e5c81d6063162d0c4100635dc701",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "5f6df5146387225c1ae9a7450d42776dc22bff56702226837c600cb313770cd1",
+              "page_numbers": [
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "15eca7d5e170857c76cdc4152cc83676e0964f628673dcc46f9f284af3dedaac",
+      "answer": [
+        "Olympio",
+        "Olwin",
+        "Claim No",
+        "Claimant",
+        "Defendant"
+      ],
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "55fa145c3f08b4ca22bba9263dbcdb3ec4f9d9c762c73ae20e8e6f8019c010f7",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "421a22dbd5868521e6549cca64b54f45a4732a806e0db7650b94a260bef56081",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "58eae81bf668e7f6c58619f419a49b5e35e2e5c9c7475475ace28ec562580545",
+              "page_numbers": [
+                1,
+                3
+              ]
+            },
+            {
+              "doc_id": "9f41ffdf37412adf838e9851fd7f6b0aa9f5514eed54724f81a69917cffebcf9",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "f0f2a5111529f42a194890c7e331e0ba778e8528a7d817f87eb90de589cf815b",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "443e04bc1a78940b3fcd5438d24b6c5f182a276d354a3108e738b193675de032",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "49ac14a6ff169232aea8b13d4167dc131b78bdfb95d584e8fea4a2c90533f230",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "ed909a4aeb3169ff8c9ad0d049009daf461c6ff8b57f244b45c10d6d059b9009",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "00427a0402e71479e78abd615764eba7f3874352663aa227caeca830a3cbf6b4",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "094a2d737b639d147595f5d9a6661cadeb15009c30bdf7d43ce9760bdfc2bf6d",
+      "answer": [
+        "Ohtli",
+        "Onora",
+        "Claim No",
+        "Claimant",
+        "Defendant"
+      ],
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "58eae81bf668e7f6c58619f419a49b5e35e2e5c9c7475475ace28ec562580545",
+              "page_numbers": [
+                1,
+                3,
+                4
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "3b237899351b630126891412318509af8133f0e99a9fc2995aae5db5119e7702",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "2a2461886df041f237b8f2791c68315070c99f91a719f7d375c3ecdbae72a439",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "34ce0548d06c348a6dfa9d580f46f105df37fe1bbfe81fa1f4e7b78f0bed05b6",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "f954e46dee6f53601314dfe02e0c28c323ba4f050449b79f2de1b756564d808c",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "bfb74c144eccef4073df482acf97ade41cae29e985b3b8e64e582262967cf5ec",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "7ff0220f63290431bb5218982a2a9bc2c62c26679b3fe47cb29f0b305cf7bf77",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "f35b5e5e0766d43aa7700b2dbca4f07110747ca7c4dc5e832b53aeed325b2a98",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "34ce0548d06c348a6dfa9d580f46f105df37fe1bbfe81fa1f4e7b78f0bed05b6",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "b9fdb42c55d635bd14ae3074bc1ee15f7fcafc647b4d839da882598c05bde6f4",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "f954e46dee6f53601314dfe02e0c28c323ba4f050449b79f2de1b756564d808c",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "4514412bdbbde1ef392d2d301d5e74e71cca55c87b99d1740bbcc3dac9f2cf29",
+      "answer": "Interest, Costs and other relief",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "37f14b6d6d2a99ea50a8cbe6221c0bef5a0b75a65e270e9b1144b6c2acdb2f57",
+              "page_numbers": [
+                1,
+                2,
+                10
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "58a8b24041f61473d4aaf05221b75ef451c785fb7d3a8697ce90d3a9b5d2e98f",
+      "answer": 27.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "8983927b2f648fff22bb3829dec54fee521a081ae4967b9956d57ba89464b6e3",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "912b9d008dbc9a39adf9574e5a49274a18eb58ab7a702cabcd52858ea48a8046",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "eb21473f54ab4648cd26afdc1c99381ac25b2307b870832b36f61eb7dcef2528",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "ff37cc0bdae9ed7fec411018435c2a2e098595a6a4a718150cc51544cdaa8b09",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "a47f5fc4894a7b82774a070653d6efba606d4f2815ff1d77b714c482cd2e1e42",
+              "page_numbers": [
+                1,
+                4,
+                5
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "97b8b85e835ea23be535da1e9f5b102d49adeed2cf6e78d0ec0a2d57d6ea8ad6",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "25d4d5358e4e321c191a1dccd5fbbaba1e18c3effa9935c016260db8cc07ebac",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "897ab23ed5a70034d3d708d871ad1da8bc7b6608d94b1ca46b5d578d985d3c13",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "f8d3778ec2891efd616f8f34595cb80a61d49cde1e9bef7e857718c6337397fe",
+              "page_numbers": [
+                1,
+                5
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "088719a14ff60a2268db9fb4527d4054e6a8adaf272aa8b2339ebc196ec76133",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "265968877f0f4ffa5838a08335ca9d807f2329e83e8ce5088b85fd5e11941746",
+              "page_numbers": [
+                1,
+                11
+              ]
+            },
+            {
+              "doc_id": "9e5724b81e8f9b5a5f0c8bbc9e9255959be1a86bd53ce817c9d6a02a23475d0c",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "a2e0aee40b2e7ca7aead0d6a65503a18d473c786e84484401b05d6aa0d867f23",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "4153eef0383716968a41846200fa8bb135726cb45d32787053699c805c427ec9",
+              "page_numbers": [
+                8
+              ]
+            },
+            {
+              "doc_id": "96be25a94c84742ae6b7b6e2275376c2393312c7097682f1135590d76d55e727",
+              "page_numbers": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "79d450b2863a28b66ccfd17d8dd23783b002b2d311d661329b783a9c14c6bec7",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "6c3c49e1a35a1e3577a0412f97b6e3d91cae11d24430c7390d7865c992b1a515",
+              "page_numbers": [
+                3,
+                4
+              ]
+            },
+            {
+              "doc_id": "e9a32d22eb9bac59756c1fe25e6d5ffd09d75582efcbe191fe8f078145cc08a5",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "fa663084f09fbbc0b875c67d87b28967cf2973e5a31d90a5dd737934daec93ba",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "f4e0781b0c65e68abda9e8171dc7a5fd8df7acc6b44a40028a5f59db54a49476",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "34ce0548d06c348a6dfa9d580f46f105df37fe1bbfe81fa1f4e7b78f0bed05b6",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "61ff6aa4d64eabff443255c427b693a857c8bf93c73aa535d990a766c36db890",
+              "page_numbers": [
+                2
+              ]
+            },
+            {
+              "doc_id": "f954e46dee6f53601314dfe02e0c28c323ba4f050449b79f2de1b756564d808c",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "366185651c1b9189b9543275844190f086d91d2489f45be4aa3cdadfb8d00102",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "265968877f0f4ffa5838a08335ca9d807f2329e83e8ce5088b85fd5e11941746",
+              "page_numbers": [
+                1,
+                11
+              ]
+            },
+            {
+              "doc_id": "9e5724b81e8f9b5a5f0c8bbc9e9255959be1a86bd53ce817c9d6a02a23475d0c",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "5207f0dbe8c000bcd0d024ddb4aefe1c0d99b92a8ee780f11a2c32d3748f135e",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "51d4b9c700ef128624b2b79f6caaf68f2cb879fce9e5329aefce57439322a162",
+              "page_numbers": [
+                1,
+                3
+              ]
+            },
+            {
+              "doc_id": "65f3f4acfcaca7fc9488e275643135ea7e1d30323e4f4c2cc04d7fc16844e373",
+              "page_numbers": [
+                2
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "06034335eee6dbe0df799fd5ce57e8f311ac8ad693dbeeb8dad4edaa9edb53eb",
+      "answer": "STRATA TITLE REGULATIONS",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "b486db089615010a9b45bc71411b5a238a0a0b9aaf074d875f98f5b934f75079",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "97c2c392aab4289a576fe7d978bf474e74d5a795512f73e8e9fb432182a320b3",
+      "answer": 2.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "4cccd40fc2bd7aee0287bbff7ac8d922bb4ea4e4646c96af7c16784657d6e884",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "bed60019aab58358ff4923bad18b9466dad0821316eea7fb515c0df6c8eccf3d",
+      "answer": [
+        "Mirifa",
+        "Mahur",
+        "Meison",
+        "Mepur",
+        "Claim No"
+      ],
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "ec70dca8ed05590449db65f2e6cae5213af3ca12c6bf2dc176f07f460668ac9a",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "66e2355bf4b1b6c578607ccb6355d4760f3eb8d05a10b95475ad52104399ebb9",
+      "answer": 30.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "e4741149b9a44c7cd24286313a2c89e92923b8e99786d4b02107f093aa8293c2",
+              "page_numbers": [
+                1,
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "b9f469a887a9c76c821f696f7b758837faf7a31aab78e55e10a7fb1ba112db40",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "dda8c7ff4dc7629de6c05fa9aeb88e6fb54d5d856af69f54d85ea46eebbf7ee7",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "83960f616021c74ce00a6d2dd8e0d9a84d6b75985ff44c45b535c481946331ab",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "6353311150685dea77426c491990551130ee708d3da093da3028274d5794906a",
+      "answer": [
+        "Michael George Forbes",
+        "Robert Kidd",
+        "Claim No",
+        "Claimant",
+        "Defendant"
+      ],
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "dda8c7ff4dc7629de6c05fa9aeb88e6fb54d5d856af69f54d85ea46eebbf7ee7",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "82673215b9bd3b94b8add6758e5214007e781384393f5cf3c08f197323a5df12",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "1b446e196b4d1752241c8ff689a31ea705e98ad0c16b9d343c303664f72b64a1",
+              "page_numbers": [
+                1,
+                3
+              ]
+            },
+            {
+              "doc_id": "6c3c49e1a35a1e3577a0412f97b6e3d91cae11d24430c7390d7865c992b1a515",
+              "page_numbers": [
+                4
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "502374e2ac15fddadbc1cae41e644645ff00b531c26412c575db5d2582b36b3d",
+      "answer": "2025-06-23",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "3ea7dcac0f9121a1d656c10088ab385c91186fbe1b10520bfc721bd3ea9d50dc",
+      "answer": 221.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "a0202a8e076cefa41fb711adb39e9e800bd45f2681ee45a787497a6ffec95eeb",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "a5e5dcb254049c618d0e0a8cb0e07b4d5ae594c286c54285267254a8b9066309",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "fb2d4e5fc4064d466bff512927912ba042780e3aa4374a7ff4c86236421e4fcf",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "9bea2925076971aecdf7337c65c216a06714c2c469bdf658f8cc7cd6d95a2784",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "b394eab72bae7c7ee64aef85227f95759288d9fbc7210437ee677853e121020f",
+      "answer": [
+        "The Court",
+        "Order",
+        "Primary Judge",
+        "The Appellant",
+        "Respondent"
+      ],
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "4153eef0383716968a41846200fa8bb135726cb45d32787053699c805c427ec9",
+              "page_numbers": [
+                3,
+                5,
+                8
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "44796f58158e5e229bc11431f604872b7c97d22fdb388240654bf2cf5cc2acdd",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "1b446e196b4d1752241c8ff689a31ea705e98ad0c16b9d343c303664f72b64a1",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "d32e76d495ac7d855d805fb71682b98d254520e3799aa4529ebc983212648335",
+              "page_numbers": [
+                1,
+                4
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "b3587f440a51f7b06e319deeec0f8f31009c244d0e7cd9ce342087cb3f6b2c97",
+      "answer": 67.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "897ab23ed5a70034d3d708d871ad1da8bc7b6608d94b1ca46b5d578d985d3c13",
+              "page_numbers": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "13572aa1db9ad9bd934dd0f17f12185b6fb1569373a6cab2b7d9940fb94265b5",
+      "answer": 10.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "443e04bc1a78940b3fcd5438d24b6c5f182a276d354a3108e738b193675de032",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "1f33434360465f26a054889c45e44adc4446d8f64c20be9c759ed9f73cc4cbe5",
+      "answer": "CFI 016/2025 Omar Ben Hallam v Natixis",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "6248961b681ea0deb189f354be0c8286f35974dcdb211c13c921c3dd0e566a6e",
+              "page_numbers": [
+                1,
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "3b687a56d0fd0450808ae79f879a1e362ec3e91b1cd96e690e9c7cdd50d98c47",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "44eada8b59109a9786d26b923013ae3674be81e37fc9d5a10c5d2e46f04068f7",
+              "page_numbers": [
+                2,
+                3
+              ]
+            },
+            {
+              "doc_id": "72c68112558f90a3cd53e49048eec495bf31bdc1846e41cc7f967f55bd10a188",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "90133fa1e9934743554e3446d80bba0867c032c970e732d84a2991c68e2abbac",
+      "answer": [
+        "For",
+        "Courts",
+        "Article",
+        "The Claimant",
+        "Defendant"
+      ],
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "6c3c49e1a35a1e3577a0412f97b6e3d91cae11d24430c7390d7865c992b1a515",
+              "page_numbers": [
+                2,
+                3,
+                4
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "104ebc964fcda90e645cfbd2ed577e8c8c7381929d615baca7f9c56e0fe4e292",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "7a288e5ccc9cf410418f9786f72eaf82becf52c4070446a61bc9eecee004601f",
+              "page_numbers": [
+                2,
+                4,
+                9
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "15fa7f8296619d534d6a43331c25ceba81e040a123bcc933daee0985765105ae",
+      "answer": "Buhaira National Insurance Company",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "44927ba58d3565f435c12443d5fc44454516ee3d35512f788d52dfbdb4f5a14c",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "8f1c1c6cba057742bbf55b26b0867a94ffe676eeedd4d1b9a795fa347001715a",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "b9cde965ff214511b3517622bb7c5d5d47f6d229ca3be5d3f126f90ba113499c",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "a28055f7d73c8989c2c8015e6183f6a7609718b1e6757323b84987d2b735eaa5",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "ce2f02347ea985ac8fbfef23a38cfc5bdb078b2148613aeb1853241ff6dade7a",
+              "page_numbers": [
+                1,
+                3,
+                5
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "531ab0e32fe78dd206ec52ac86aa95d0d98fdb4aa5825ec207883af76793922d",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "fa214eb6619e91118ead3fd63c27e7e506f292916db705ed09e37845036f4554",
+      "answer": 13.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "f4c4d051d514270964adcf58e124569e396602340b7d9172671759de10a95897",
+              "page_numbers": [
+                1,
+                2,
+                4
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "99d0d93177513786fb0a2f0d17692830858074a7c2692311f605e44606243e1e",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "7b49b3faa288d6de781e633bd848319843e4181bcf7a1f0df42005d2de659640",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "dda8c7ff4dc7629de6c05fa9aeb88e6fb54d5d856af69f54d85ea46eebbf7ee7",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "e9a32d22eb9bac59756c1fe25e6d5ffd09d75582efcbe191fe8f078145cc08a5",
+              "page_numbers": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "7b2a758e1cf397922102a07636d9e4721c755af2f15773389b305e132c1bb466",
+      "answer": 22.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "ad76dc7093851d116c8878802b815608adceed54f6b5195ae04ffec28ae25d32",
+              "page_numbers": [
+                2,
+                19,
+                22
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "860c44c716f4243e1db203f5a0433813245daf336355b1523170cf1da2d428e3",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "d9eef61b7733bb9f9352f6f89fedb96de2ac1216cab5259e33fca3e0bcf695b5",
+      "answer": 7.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "6306079a16b1dec85690f75c715cdbd78b0685a3e19ee30250d481bc32f2e29a",
+              "page_numbers": [
+                1,
+                4,
+                6
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "2c19aabdd140c890613e06a3b4f764198bbc1f39e3e4c13a27535cbe2f85aa49",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "f4c4d051d514270964adcf58e124569e396602340b7d9172671759de10a95897",
+              "page_numbers": [
+                2,
+                3,
+                4
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "e2087f3eac2290be2924b5d365ee0dcb0b1f026084cd37453232b365d5fb3635",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "f5b9ef5197332ab0662a0ade3b0ae7f0fa7602c7cd4686b67fe207ec6f68924d",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "0054221069567dd1a2b0ebb97370cf27dcf5abc206c139bb177cf3bdac60afe7",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "265968877f0f4ffa5838a08335ca9d807f2329e83e8ce5088b85fd5e11941746",
+              "page_numbers": [
+                11
+              ]
+            },
+            {
+              "doc_id": "a0202a8e076cefa41fb711adb39e9e800bd45f2681ee45a787497a6ffec95eeb",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "fb2d4e5fc4064d466bff512927912ba042780e3aa4374a7ff4c86236421e4fcf",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "5185156d5caeea76bfe67fa1da099b3d5c0a921fc68463588a14b5e38def8099",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "4caa4d8e567057d23ec775b4ed33fcf32315c78a4551d70c3cbbdb82cc5e7376",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "bc05a8d8d1d1665c3b0d5bb034061227501fe5f929bf8472fb4f5a89e27b97b1",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "1fbae05f38185db6113ecb323f836cd8c5d188037921f5c5c5b7e0a812d9aa14",
+              "page_numbers": [
+                1,
+                8
+              ]
+            },
+            {
+              "doc_id": "8e18998606b040f5a6d748ccad5c991462aec551a0381ebed6d3f7eac6bab400",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "b7284b2c9029fb0369044bf09b6c471e998b8a8746d59ffe358a654a3c202a0a",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "138dc1cd698cc761ced3726040971ea9025df4d4b7d515412582131ae0e2c751",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "ff79b04bb44341529eb5fc2c90257e6834919be3d736e084f9febb1a3315785c",
+              "page_numbers": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "0b08616c9e0718fa45e7b57db8cb52f80e2843bb4db795137a9e5a27d4e70ca8",
+      "answer": "Oana v Onyx [2025] DIFC SCT 101",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "8f8837a8ccf2a27e9f7264f569a2df49aea92c1d6ecee753c6e307c9c5c37b87",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "e9a32d22eb9bac59756c1fe25e6d5ffd09d75582efcbe191fe8f078145cc08a5",
+              "page_numbers": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "aeef03e024998e6e057a0c37ada57199ec082e56e16e84db5cdc61d5829d34ae",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "51d4b9c700ef128624b2b79f6caaf68f2cb879fce9e5329aefce57439322a162",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "7a288e5ccc9cf410418f9786f72eaf82becf52c4070446a61bc9eecee004601f",
+              "page_numbers": [
+                2,
+                7
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "edc0fa0947290df2b9629bcbcd5366af40f40fc237f928c03f3a626bbd4b68e4",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "1b446e196b4d1752241c8ff689a31ea705e98ad0c16b9d343c303664f72b64a1",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "5952faba0bffde713fac6dbaf57a455f264d809a4bf7614a91572853bf6448ec",
+      "answer": 7.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "cf6fe826c8d98447fb2509c368437743906faf89a74ea51d02c7bfbe2565ce6d",
+              "page_numbers": [
+                4
+              ]
+            },
+            {
+              "doc_id": "dc942610b9f6ef0fffc048df45958b750d18b26576894e6f994fa72d42222a95",
+              "page_numbers": [
+                8,
+                9
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "2a9c2caea182a3ea8fd65310fbf658cbcdbca15469a4a492a5cacd09f070cfd9",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "0428cdda3cb116062c96885d16d8bb023f6a4a089d40f8129e0253e4fb165d9d",
+              "page_numbers": [
+                1,
+                2
+              ]
+            },
+            {
+              "doc_id": "df1355930bf24acf13f161965f6f413db2877773a500f4d5a804a1e3f951166e",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "1c60a1ef8a2d8a6cf79861e101d90994ce6bc0e08c0248daf50ac27ed236fcec",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "78b35dab2a6d2c90cdb7f6734bd43ff70a1ef47c0b41b16c0891f82ad45ed670",
+      "answer": 12.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "5e1dd3fe094245b81e31da9c32d6f5765079ae3de3a3c8f1ca984bdca70dc3f9",
+              "page_numbers": [
+                5
+              ]
+            },
+            {
+              "doc_id": "68976d0ef40230a57bf5d2cd2b8bbcb5b875fcf476d9aae4ea0b8dacb3787c23",
+              "page_numbers": [
+                14,
+                16
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "ad2cd4add7e609647e3fab03ff7452db633762276d9bce1d5636931e9ed95f8f",
+      "answer": 35.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "7a288e5ccc9cf410418f9786f72eaf82becf52c4070446a61bc9eecee004601f",
+              "page_numbers": [
+                4,
+                6,
+                7
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "ed326d4b030de9b8d1b46ed2f308cd3f960a4a57842145006216430567e9cf0d",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "55fa145c3f08b4ca22bba9263dbcdb3ec4f9d9c762c73ae20e8e6f8019c010f7",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "8d7077d411e2bc2317aad1783fd75156500eb8aa54b11e81582d431af9462f55",
+      "answer": [
+        "Order",
+        "Justice Wayne Martin",
+        "July",
+        "Worldwide Freezing Order",
+        "Reasons"
+      ],
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "665e1be417bb694d30926dec91130ad36cb25567e49e0e20aabed26f2830fb4c",
+              "page_numbers": [
+                2,
+                4,
+                21
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "b4f4f4f0dff26ae867e3d0bba3bea62bc8c97230b630951a311c3b116eb67cb8",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "b9fdb42c55d635bd14ae3074bc1ee15f7fcafc647b4d839da882598c05bde6f4",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "df1355930bf24acf13f161965f6f413db2877773a500f4d5a804a1e3f951166e",
+              "page_numbers": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "5eb1acb1dc71b740b95cdd4e4ea5040cf4b03953828218fed6ded58b70d42b12",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "a0c00ad7e8d5a16863b90d554b2f3e2fa249056199daca427d9849824991b76c",
+      "answer": 41.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "2a2461886df041f237b8f2791c68315070c99f91a719f7d375c3ecdbae72a439",
+              "page_numbers": [
+                1,
+                2,
+                4
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "149673c97f90d3385d4cce90f092d1a94afe37ea355459350e9df4456b376c90",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "65f3f4acfcaca7fc9488e275643135ea7e1d30323e4f4c2cc04d7fc16844e373",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "3e117a15e998abb3ac4216c7afe3562634961f411fa75301695c8ab821bdc63c",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "8f8837a8ccf2a27e9f7264f569a2df49aea92c1d6ecee753c6e307c9c5c37b87",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "ad071cd5a7a2ee0e0a36a2a06305338b1b31c5aa95bf4f426c3901add00a9c34",
+      "answer": [
+        "The Defendant",
+        "Claimant",
+        "Registrar",
+        "Mr Dev",
+        "It"
+      ],
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "4153eef0383716968a41846200fa8bb135726cb45d32787053699c805c427ec9",
+              "page_numbers": [
+                2,
+                3,
+                8
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "6c816f2d48950d2fd5b8eec7561ffee023ee4cb138c3556a3ea1fff382660cf2",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "96be8f502cd16d18f4bc214e6963b726af9dfbac028bfd2b980c3b761e9fa571",
+      "answer": [
+        "His Excellency",
+        "Court",
+        "He",
+        "Proceedings",
+        "This"
+      ],
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "717dc41cb19258ad4e8901597d165f94cfc4f37074f3cf0b5d2e8f42b17e547a",
+              "page_numbers": [
+                2,
+                17,
+                27
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "3ca2b325e8b9f32e90a5e99e2e3d53f1d000b4183ec57fa0b49ff2c47925571a",
+      "answer": 36.41,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "78461539a8b7238c314b7dd56483e1682c5e1ce7f3cf8fc6947e22c0ac5d0d18",
+              "page_numbers": [
+                1,
+                2,
+                4
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "726d7387d8b768b8f35b049d05d5fb4a111f28a18cbbabeed3cafb9229ac7464",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "51d4b9c700ef128624b2b79f6caaf68f2cb879fce9e5329aefce57439322a162",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "ec70dca8ed05590449db65f2e6cae5213af3ca12c6bf2dc176f07f460668ac9a",
+              "page_numbers": [
+                1,
+                5
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "0dcc63c933602e8311eebdaa7016d25c779294554db710c2ecba1a7e55973e96",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "5d3df6d69fac3ef91e13ac835b43a35e9e434fbc7e72ea5c01e288d69b66e6a2",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "5f2e0f8fe61acf2975a8b3a1a4f51ff3fe01961d220da1ec068cab0f398d6177",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "eb21473f54ab4648cd26afdc1c99381ac25b2307b870832b36f61eb7dcef2528",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "e759b663f3dd526b4be938f9992d0fa9bf08e1c6fcc8480ecee41c7e33bd0ea2",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "1e1238c6119ed749321cd0addedbaeb69e68eec861acb1d122a2730e8944bf23",
+      "answer": "STRATA TITLE REGULATIONS",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "b486db089615010a9b45bc71411b5a238a0a0b9aaf074d875f98f5b934f75079",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "fb1176e32e39b9b821fa8e034fcd8523dda9be27e89cb70624289eb381dfd235",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "18d5d0320cded1a097fa66202ff2a80dd38e6ab818dfefffea614cd389632dad",
+              "page_numbers": [
+                1,
+                2
+              ]
+            },
+            {
+              "doc_id": "7a288e5ccc9cf410418f9786f72eaf82becf52c4070446a61bc9eecee004601f",
+              "page_numbers": [
+                7
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "e4d72576b3396be5c7426126c92db8a5cd176191412269a14067b7c58eb3395b",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "b6e73833fed9983b886ee39682a854736d340238a1a1691fd2edd0dc5f6d1c07",
+      "answer": 2024.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "df1355930bf24acf13f161965f6f413db2877773a500f4d5a804a1e3f951166e",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "e6bc5601b7340bc4d837d116940207b256d4980d9fd542c6e1a28dc8846f8c75",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "373869f63e60de4c28ada3d3f7bdf79df0113c5a85aee15f786cdee888b57172",
+      "answer": 26.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "6c3c49e1a35a1e3577a0412f97b6e3d91cae11d24430c7390d7865c992b1a515",
+              "page_numbers": [
+                2,
+                3,
+                4
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "0bd6e85cfdbe698fadf8c5abd6ceeabfe0e878f9b80d7df50e0f888ffa38e7e9",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "6248961b681ea0deb189f354be0c8286f35974dcdb211c13c921c3dd0e566a6e",
+              "page_numbers": [
+                1,
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "d246b978c7e9b7365898182cdea0626268501da4de5a1f2eeffd3e14cae4a956",
+      "answer": "Issued by:",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "e4741149b9a44c7cd24286313a2c89e92923b8e99786d4b02107f093aa8293c2",
+              "page_numbers": [
+                6
+              ]
+            },
+            {
+              "doc_id": "e9a32d22eb9bac59756c1fe25e6d5ffd09d75582efcbe191fe8f078145cc08a5",
+              "page_numbers": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "f378457dc4e9f78aa2ce25dde7449a5400b853217f8ebda07a8654a015b15021",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "882435605978f79b90b4336ee691eb1cec0d009b77bcd530935444b631f3de5d",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "f103d6eb1d7a35202c4db50a234195ec65a51c660254383021ee1fa48c4d6c76",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "0428cdda3cb116062c96885d16d8bb023f6a4a089d40f8129e0253e4fb165d9d",
+              "page_numbers": [
+                1,
+                2
+              ]
+            },
+            {
+              "doc_id": "b9fdb42c55d635bd14ae3074bc1ee15f7fcafc647b4d839da882598c05bde6f4",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "72cd29e37e7be7b5850d822ff963a090ec438c332f8194dffaa4ffeae3485de1",
+      "answer": "Authority",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "a0202a8e076cefa41fb711adb39e9e800bd45f2681ee45a787497a6ffec95eeb",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "a5e5dcb254049c618d0e0a8cb0e07b4d5ae594c286c54285267254a8b9066309",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "fb2d4e5fc4064d466bff512927912ba042780e3aa4374a7ff4c86236421e4fcf",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "327fec3f3bfa8fa1bd91731409edf905b82f1c50891f677408fad9ba2d615d8f",
+      "answer": 35.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "138dc1cd698cc761ced3726040971ea9025df4d4b7d515412582131ae0e2c751",
+              "page_numbers": [
+                1,
+                2
+              ]
+            },
+            {
+              "doc_id": "ff79b04bb44341529eb5fc2c90257e6834919be3d736e084f9febb1a3315785c",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "f3bd65bb1a5645c246ce296e4b914053370fe9253729074bb66d8caef0fde35c",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "e0b59660dbbed9f5e18783e3fa089e4ab50d53600c7da050881ce3268f9d81e4",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "4e30baac0c5eb8273894d8f7e17d4066356c92eb15eedcc802abf45cf942da43",
+              "page_numbers": [
+                3,
+                8
+              ]
+            },
+            {
+              "doc_id": "51d4b9c700ef128624b2b79f6caaf68f2cb879fce9e5329aefce57439322a162",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "2ccc14f6ca44e12cd9793927c9bacafe099c1665dff5194f8bf47e6c72ab29e4",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "4c70874671d36a63ec53dfbf48201125bb0e161e9bdad543f276490c964e9341",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "d32e76d495ac7d855d805fb71682b98d254520e3799aa4529ebc983212648335",
+              "page_numbers": [
+                1,
+                4,
+                9
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "bdd28ce816a5b01ab2b5a853b5a9b74c991b7d4e7ebc99a26bae2c41d6836bfc",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "0fab7473adefdc8ab2150cb26aac46cf3f6b5c1da374abb1ec217448ae3c2869",
+              "page_numbers": [
+                4
+              ]
+            },
+            {
+              "doc_id": "62d4492fbd9570bdc5d0c9ee17e3969b2238bc5fa12416de9a0fd27adf56deeb",
+              "page_numbers": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "f4d7e9c5e01131522f3693de0e319d88e53ca53c26e872b5117a6ee9de4e3e52",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "44eada8b59109a9786d26b923013ae3674be81e37fc9d5a10c5d2e46f04068f7",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "8f8837a8ccf2a27e9f7264f569a2df49aea92c1d6ecee753c6e307c9c5c37b87",
+              "page_numbers": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "0d45754946ddc2b136d97cc42e2b059c137fdfd3856eedd7ad16692f6a4b9fa0",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "b02055aab210dceb055711108f8d4b8a75e8b3c935efe5cab3291ac9a07abada",
+              "page_numbers": [
+                1,
+                2
+              ]
+            },
+            {
+              "doc_id": "e4741149b9a44c7cd24286313a2c89e92923b8e99786d4b02107f093aa8293c2",
+              "page_numbers": [
+                6
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "1e91e0c0c38aa7bf780e776cdaf804ec99efc1cf7053d260997f44657a757fc5",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "382fb554bdb43738e5ee8ec04cf727a82c852272792219ea35343e2688d48f93",
+              "page_numbers": [
+                1,
+                8
+              ]
+            },
+            {
+              "doc_id": "443e04bc1a78940b3fcd5438d24b6c5f182a276d354a3108e738b193675de032",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "8c34698650f03fb28b8c4eba43c594947cd4d6e133e19725f9ce8cccff978a47",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "437568a801115019fe8278385c0484bdf07ab86f9a499ecaba2b7969b37c764b",
+              "page_numbers": [
+                5,
+                11,
+                13
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "6976d6d247c5a260ebe90eb4ebf418998d7642f5e4e60845d6d49cb8fb145dec",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "87ae6c8d3d53fad89f1047f358ec874513495ba968c05e229cec0ae11f3527bc",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "5b2832f111b3aa72cc13807c93b0681112d347dd56cbf623d2ee63373af8f593",
+              "page_numbers": [
+                1,
+                2,
+                7
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "efd9734a5633ecdfb9222452e7f01b1d2c94968a5f7ba2f29f3418d1ed4ad1f6",
+      "answer": 9.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "72c68112558f90a3cd53e49048eec495bf31bdc1846e41cc7f967f55bd10a188",
+              "page_numbers": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "b24ae3c5de75c0584135d30d9b4b76942e0a87ac8acbf995da44cb4b7e1b608c",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "717dc41cb19258ad4e8901597d165f94cfc4f37074f3cf0b5d2e8f42b17e547a",
+              "page_numbers": [
+                14,
+                17,
+                23
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "e3fc9273fc8c305cb6937febfc12a0078f8c601eae297d88b20d3403faf444eb",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "651fd8bc5eb94a4c0335f03fa3c6a8cf84529fa5f26896b31610f3a0b8846914",
+      "answer": 49.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "265968877f0f4ffa5838a08335ca9d807f2329e83e8ce5088b85fd5e11941746",
+              "page_numbers": [
+                1,
+                11
+              ]
+            },
+            {
+              "doc_id": "9e5724b81e8f9b5a5f0c8bbc9e9255959be1a86bd53ce817c9d6a02a23475d0c",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "d30b516aa4f57c842550c2cfcec5dcec2aa7ea913e94b80c667ef1a5f7d3654e",
+      "answer": 2025.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "8f8837a8ccf2a27e9f7264f569a2df49aea92c1d6ecee753c6e307c9c5c37b87",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "af476083bb897d2b7357ac620713997017e56bda257e87490ffb0060c4d50acf",
+      "answer": 3.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "44eada8b59109a9786d26b923013ae3674be81e37fc9d5a10c5d2e46f04068f7",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "ae668059887359c35209cd0c874767746f9c3c495f032ca15ff907980deddeac",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "159dcd9e773b9de72184c318194f085131a99dae6a53318ae816570bd6daaf72",
+              "page_numbers": [
+                1,
+                4
+              ]
+            },
+            {
+              "doc_id": "dbe11c5a8dedb41beb61f9ceb04121b49b037741af11efc934962fa1b4a5f2c2",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "5f61a8c032e7d0abd7c3e6c202704733a0196eb2d937dbef2ef0649b55be3513",
+      "answer": 1.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "4e30baac0c5eb8273894d8f7e17d4066356c92eb15eedcc802abf45cf942da43",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "5ca1676ae067aaf08b186fe6940942c0f92ae90577cea2ecabe2f4e730e59e40",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "dafcd0e2420597ef862ca767e938e09bccd3e542cb66cf11b6ed7888dd8210b1",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "443e04bc1a78940b3fcd5438d24b6c5f182a276d354a3108e738b193675de032",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "b5d719d639a684fde1709e9e17aeb8eb8f8a62cd96cafb0b18f661fdef128138",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "96be25a94c84742ae6b7b6e2275376c2393312c7097682f1135590d76d55e727",
+              "page_numbers": [
+                1,
+                5
+              ]
+            },
+            {
+              "doc_id": "9f41ffdf37412adf838e9851fd7f6b0aa9f5514eed54724f81a69917cffebcf9",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "55ae7fe2bb242b917df6bbed8155b12494fe117c866725628eb7dd7d4f667040",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "2a2461886df041f237b8f2791c68315070c99f91a719f7d375c3ecdbae72a439",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "443e04bc1a78940b3fcd5438d24b6c5f182a276d354a3108e738b193675de032",
+              "page_numbers": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "0c942fea3bd83e719bf711fc1f98b9a3945b59615a9dfd5b4cb1b8ff33733182",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "8f8837a8ccf2a27e9f7264f569a2df49aea92c1d6ecee753c6e307c9c5c37b87",
+              "page_numbers": [
+                2
+              ]
+            },
+            {
+              "doc_id": "bd2d222ee0a636a745434cfb457321cd658db5bb32b5f0a3f5643236cc1503d8",
+              "page_numbers": [
+                1,
+                8
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "7892a2c531bd4360616524df6f7cb5587e5d6387a23d01182a620994195ca3c0",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "2a2461886df041f237b8f2791c68315070c99f91a719f7d375c3ecdbae72a439",
+              "page_numbers": [
+                1,
+                3
+              ]
+            },
+            {
+              "doc_id": "eaa0fe6459acec126535e416342312727d056a9fff5894358e4a47604fd043bd",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "02399e63610cecd0d228859671a06b006459abb11227b9ef3dcd657b4d7d4387",
+      "answer": 25.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "b212f401e34dc75bb9b65c3c45072125db68094f45e0587ab93669c97da650ce",
+              "page_numbers": [
+                1,
+                5,
+                7
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "953e204deb66ef4f284d4a6a72caefe354296fc30f3fe16a6de33400c379e38b",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "12b74a8429be2a285033bab74701def585dc682cb6a28f4bae45f1360d734bb7",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "dda8c7ff4dc7629de6c05fa9aeb88e6fb54d5d856af69f54d85ea46eebbf7ee7",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "3213b6725688d7658886862016cdc47a98c03cf0390de920118141945f2998bc",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "103a9b704ee8a81483a357fed2ea3a7f3ce3cfd4b267bc1d4ad453f36ea2e6cd",
+              "page_numbers": [
+                1,
+                2
+              ]
+            },
+            {
+              "doc_id": "cf18d18dae354e2419910c0a7ad37605b9b1885b699b059edd21cac091508ecd",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "5a48c3e741684512fe51d8d9db1ece397f1313f5010297c4be0f33cb337a0d0f",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "7762b20eeb3ca0cb3dd62a4b079bf01d6b5e7f8707d7be77ad9c6ff1e230aabe",
+              "page_numbers": [
+                2,
+                27
+              ]
+            },
+            {
+              "doc_id": "897ab23ed5a70034d3d708d871ad1da8bc7b6608d94b1ca46b5d578d985d3c13",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    }
+  ]
+}

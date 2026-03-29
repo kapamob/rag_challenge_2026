@@ -1,0 +1,24 @@
+{
+  "architecture_summary": null,
+  "answers": [
+    {
+      "question_id": "331b267822eaa013b4a79d92f2ac5118052a57150df9a29d7d11c531f02d23cf",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 100,
+          "tpot_ms": 10,
+          "total_time_ms": 1049
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "gpt-4o-mini"
+      }
+    }
+  ]
+}

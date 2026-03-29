@@ -1,0 +1,480 @@
+{
+  "architecture_summary": "v12 regex-routed: docs_list-first (rules) + per-document indices + constrained retrieval",
+  "answers": [
+    {
+      "question_id": "30ab0e56ee0c43b5bf94fd9657c7f7ac24f0e7be29ced2933437f7a234713cd7",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "331b267822eaa013b4a79d92f2ac5118052a57150df9a29d7d11c531f02d23cf",
+      "answer": "2026-02-02",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "5d271fced60d88e008a69adc2da21de427906206bfb49f5554a3bf1dd6f72772",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "358bf0caaa87ba7e11698c5e0bb230f5742c141f2da8a3e8969cee41ef0f7841",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "bce4c288236518dfd08f6bac5a75c75ea79b1250347c4b998252fa9d7265a7c3",
+      "answer": "There is no information on this question in the provided documents.",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "6863a7f4a5e76694620518758411bc743142897fa8077f2a73701b89fa2d0b0f",
+      "answer": "There is no information on this question in the provided documents.",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "150d4428704ea7ce7452509bda9c25f4d242b2395114ed0ed59388b87660f218",
+      "answer": "There is no information on this question in the provided documents.",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "39890efe7db1258f568e838c284020a9fc79b8bf0deddab76fdf853c9b0171ed",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "acd0ddc6715f2bccf5076dc47e6874a8ecb782dd10c0b162071f890ad96bef47",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "436c12cc4eb26087bd1540f5d47825712632e90b4d5b2bca6c52e3b26151f874",
+      "answer": "There is no information on this question in the provided documents.",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "4fa07316db9a19980de495d2190350cc4b494ae0ab741cda7784e895709719e1",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "1a80e5dc69fb76a97c0ada049df2425c9f06de373bbb9ee5b39dbd1f12f85387",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "9f9fb4b911d75c22f2c9a42bb852848ac45594179a7d0d126c8ef0ac8941b18d",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "d374bee20e02f7f384e766dd792856c6457f99fc1491e5fee2e6cd50a4d856b7",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "8de44b7964cdde111c1a33ac4cc13948b7b4e14fd120351fcb5a5bfb2b2dfff0",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "a8813f8f56099bd156b5fe797cc44b061d2a54fb69ca2e748ffb7cc462eaa85e",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "fcabd6aa14e2df4b7ca00fa516a70eba6de58b74dfde30270e3fe3eec6d1da7a",
+      "answer": "There is no information on this question in the provided documents.",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "e59a0dc49c291402ead91342b065bc4e9ded0043d126f73dd00ba6045aae46b7",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "359f1c315f2ac48e6b34ecfa503c6b9c892365985b363dc9a4e3c85563550d05",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "2fc105ec9d11e361b057e8ce21245fbc01f14cefe5ccddada9d7541c952106d2",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "b667804a5541a24d40f211b3febc69fa5e633d52a08baf9ce6735832ea4e5ec1",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "b1d0245bb7c71b42f08a4cdbec612a56715295223472ac5a45af31811ada2f3b",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "ad7357a7eb955085f6438dfcaf44324de7fcf88da86c846242e173eacdeebfda",
+      "answer": "There is no information on this question in the provided documents.",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "0aba04f64851d1419be984476f91f278e6ada2d6c536fd119d7ab37a8ed06593",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "9596fb754439e6752034890c1272a2df7c0f9000db7d186db21aa232a253fca4",
+      "answer": "There is no information on this question in the provided documents.",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 0,
+          "tpot_ms": 0,
+          "total_time_ms": 0
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    }
+  ]
+}

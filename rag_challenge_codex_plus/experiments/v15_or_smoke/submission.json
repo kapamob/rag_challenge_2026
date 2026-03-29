@@ -1,0 +1,101 @@
+{
+  "architecture_summary": "v15_or_smoke regex-routed: docs_list-first (llm_router) + per-document indices + constrained retrieval",
+  "answers": [
+    {
+      "question_id": "8f95ae2a9d0a646b897457ef20d68e656b93a0ac87a0eae99c05016f24a8e612",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 6450,
+          "tpot_ms": 129,
+          "total_time_ms": 10666
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "1fbae05f38185db6113ecb323f836cd8c5d188037921f5c5c5b7e0a812d9aa14",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "4153eef0383716968a41846200fa8bb135726cb45d32787053699c805c427ec9",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 19770,
+          "output_tokens": 75
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "af7d4a3408d435ad4e6d99daf2ab371421550d066378596fc903f046e45d57e0",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 9035,
+          "tpot_ms": 83,
+          "total_time_ms": 15321
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "2a2461886df041f237b8f2791c68315070c99f91a719f7d375c3ecdbae72a439",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 18677,
+          "output_tokens": 51
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "question_id": "1045730241a7deab9c1d81efe7b56b37899a8d333e03e920319d1f7245152204",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 17949,
+          "tpot_ms": 33,
+          "total_time_ms": 34649
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "0e67dea643dcc288aa252c0117e0e5046a344a560626fbd5a0c555cf6da556c3",
+              "page_numbers": [
+                2
+              ]
+            },
+            {
+              "doc_id": "1097d4b46b95e7b5522bc038d5dc8189f952f04470144de16e1f2add030c1480",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "7f398f457df6ce1349148a41d5a4736d6212ada4725fc3223294fea78d97336f",
+              "page_numbers": [
+                2
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 25231,
+          "output_tokens": 179
+        },
+        "model_name": "deepseek/deepseek-v3.2"
+      }
+    }
+  ]
+}

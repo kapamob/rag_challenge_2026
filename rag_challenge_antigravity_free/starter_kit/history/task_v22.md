@@ -1,0 +1,21 @@
+# RAG Challenge Task List
+
+- [x] Context Restoration
+    - [x] Analyze [chat.md](starter_kit/history/chat.md)
+    - [x] Review [advanced_hybrid_rag_v20.py](starter_kit/examples/llamaindex/advanced_hybrid_rag_v20.py)
+    - [x] Identify current project phase (Transitioning from Phase 5 to Phase 7/9)
+- [x] Phase 6: Full Dataset Run
+    - [x] Run [advanced_hybrid_rag_v20.py](starter_kit/examples/llamaindex/advanced_hybrid_rag_v20.py) for all 100 questions
+    - [x] Verify final generation ([submission_v20_raw.json](starter_kit/submission_v20_raw.json))
+    - [x] Generate comparison file (`submission_comparison_v9.csv`)
+- [x] Phase 11: Multi-Step Routing RAG
+    - [x] Create [corpus_analyzer.py](starter_kit/scripts/corpus_analyzer.py) for metadata extraction
+    - [x] Generate [document_metadata.csv](starter_kit/document_metadata.csv)
+    - [x] Create [multi_step_rag_v21.py](starter_kit/examples/llamaindex/multi_step_rag_v21.py) with routing logic
+    - [x] Run evaluation on full 100 question set
+- [ ] Phase 12: Advanced RAG v22 (Docling + OpenAI Embeddings)
+    - [ ] Install `llama-index-readers-docling`
+    - [ ] Implement `advanced_hybrid_rag_v22.py`
+    - [ ] Switch to `text-embedding-3-large`
+    - [ ] Fix date format to ISO 8601 (YYYY-MM-DD)
+    - [ ] Run full evaluation (100 questions)

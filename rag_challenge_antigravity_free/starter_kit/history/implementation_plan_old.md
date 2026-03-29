@@ -1,0 +1,236 @@
+# RAG Challenge — Анализ проекта и план действий
+
+## Обзор конкурса
+
+**AGENTIC RAG Legal Challenge** — API-only конкурс по RAG над юридическими PDF-документами.
+
+### Ключевые параметры
+| Параметр | Warm-up | Final |
+|----------|---------|-------|
+| Документы | ~30 PDF | ~300 PDF |
+| Вопросы | 100 | 900 |
+| Макс. сабмитов | 10 | 2 |
+
+### Формула оценки
+```
+Total = (0.7 × S_det + 0.3 × S_asst) × G × T × F
+```
+- **S_det** — точность на детерминированных типах (number, boolean, name, names, date)
+- **S_asst** — LLM-judge по 5 критериям для free_text (correctness, completeness, grounding, confidence, clarity)
+- **G** — Grounding (F-beta, β=2.5) — **МУЛЬТИПЛИКАТОР**, самый важный фактор
+- **T** — Telemetry (0.9–1.0)
+- **F** — TTFT factor (0.85–1.05)
+
+### Текущая конфигурация
+- **LLM**: DeepSeek (`OPENAI_API_BASE=https://api.deepseek.com/v1`)
+- **API ключ**: Настроен в [.env](starter_kit/.env)
+- Документы и вопросы ещё **не скачаны**
+
+---
+
+## Анализ наивного baseline (из примеров)
+
+Примеры (LlamaIndex/LangChain) делают следующее:
+1. Скачивают вопросы и документы
+2. Загружают PDF через pypdf → чанки 512 токенов с overlap 50
+3. Строят векторный индекс (top-k=3)
+4. Отвечают через gpt-4o-mini с простым промптом
+5. Отправляют submission
+
+### Слабые места baseline
+| Проблема | Влияние на оценку |
+|----------|-------------------|
+| Нет OCR для сканов | Часть документов не проиндексирована → низкий recall |
+| Chunk size 512 слишком мал | Контекст разрывается → плохие ответы |
+| Top-k=3 — мало | Низкий recall при поиске |
+| Нет re-ranking | Плохая precision → страдает Grounding |
+| Нет query decomposition | Сложные вопросы не раскладываются |
+| Нет обработки `null` ответов | Потеря баллов на "нет в документах" |
+| Простой промпт | Нет инструкций для разных answer_type |
+| Нет hybrid search | Только semantic → пропуск точных совпадений |
+
+---
+
+## Предлагаемый план действий
+
+### Фаза 1: Подготовка (первый день)
+- [ ] **1.1** Скачать документы и вопросы через API
+- [ ] **1.2** Проанализировать корпус: количество документов, страниц, какие сканы, какие digital
+- [ ] **1.3** Проанализировать вопросы: распределение по `answer_type`, сложность
+- [ ] **1.4** Настроить окружение (venv, зависимости)
+
+### Фаза 2: PDF-обработка (ингест)
+- [ ] **2.1** Внедрить OCR для сканированных PDF (PyMuPDF + Tesseract или docling)
+- [ ] **2.2** Извлекать метаданные: заголовки, номера страниц, структуру документов
+- [ ] **2.3** Реализовать умный chunking (по секциям/параграфам, не по токенам)
+- [ ] **2.4** Сохранять маппинг chunk → (doc_id, page_numbers) для точного grounding
+
+### Фаза 3: Поиск и индексация
+- [ ] **3.1** Hybrid search: BM25 (keyword) + vector (semantic)
+- [ ] **3.2** Увеличить top-k до 10–15 при retrieval
+- [ ] **3.3** Добавить re-ranking (cross-encoder модель или LLM-based)
+- [ ] **3.4** Query expansion / decomposition для сложных вопросов
+
+### Фаза 4: Генерация ответов
+- [ ] **4.1** Оптимизированные промпты по каждому `answer_type` с учётом строгих правил (names без алиасов, floats для number).
+- [ ] **4.2** Убрано жесткое правило `null` в промпте (модель слишком часто отказывается отвечать).
+- [ ] **4.3** Использовать более мощную модель (deepseek-chat / deepseek-reasoner)
+- [ ] **4.4** Post-processing ответов (форматирование дат, чисел, имён)
+
+### Фаза 5: Grounding-оптимизация (КРИТИЧЕСКИ ВАЖНО)
+- [ ] **5.1** LLM-based attribution: передавать документы в формате `[[ID, Page N]] text`, и просить модель в ответе указать точный источник (можно массивом, если на стыке страниц).
+- [ ] **5.2** Фильтрация для [submission.json](starter_kit/submission.json): парсить ответ, доставать ID и Page, и заполнять `telemetry.retrieval` **только** этими страницами. Если ответа нет - отправлять пустой список `[]`.
+
+### Фаза 6: Телеметрия и скорость
+- [x] **6.1** Исправить TTFT-баг (стриминг токенов).
+- [ ] **6.2** Оптимизация TTFT < 1000ms.
+
+### Фаза 7: Сравнение LLM (OpenRouter)
+- [ ] **7.1** Подключить OpenRouter (`openai/gpt-4o-mini`, `anthropic/claude-3-haiku` или аналоги).
+- [ ] **7.2** Пакетное тестирование: прогнать 100 вопросов на разных моделях и сравнить `Deterministic` и `Assistant` скоры.
+
+### Фаза 8: Продвинутые RAG-методики
+- [ ] **8.1** **BM25 Hybrid Search**: объединение векторного поиска и ключевых слов для точных ответов на имена/даты.
+- [ ] **8.2** **Re-ranking**: использование легкого реранкера (например, `bge-reranker-base`) для фильтрации топ-контекста.
+- [ ] **8.3** **Context Expansion**: добавление соседних чанков (prev/next) для сохранения связности текста.
+
+### Фаза 9: Оценка качества OCR
+- [ ] **9.1** Визуальный аудит: сравнение извлеченного текста из `PyMuPDF` с оригинальными PDF для поиска "битых" символов или таблиц.
+- [ ] **9.2** Интеграция `Tesseract` или `Unstructured` только для проблемных страниц.
+
+---
+
+## Фаза 10: Оптимизация PDF Ingestion
+- [ ] **10.1 Сравнение библиотек**: PyMuPDF (текущая) vs [Docling](https://github.com/DS4SD/docling) / [Marker](https://github.com/VikParuchuri/marker) / [Nougat](https://facebookresearch.github.io/nougat/).
+- [ ] **10.2 Метрики извлечения**: Character Error Rate (CER), Word Error Rate (WER) и точность разметки (Layout accuracy).
+- [ ] **10.3 Спец-обработка таблиц**: Интеграция `Camelot` или `pdfplumber` для сложных финансовых таблиц.
+
+## Фаза 11: Embeddings & Retrieval Strategy
+- [ ] **11.1 Semantic Chunking**: Переход от фиксированных чанков к семантическим границам (SentenceTransformers).
+- [ ] **11.2 Сравнение моделей**: `bge-small` vs `BGE-large` vs `E5-large` vs `OpenAI v3-small`.
+- [ ] **11.3 Продвинутый Retrieval**:
+    - Интеграция **ColBERTv2** (мультивекторный поиск).
+    - Тюнинг весов Hybrid Search (BM25 alpha).
+    - **Re-ranking**: `bge-reranker-v2-m3` или `Cohere Rerank`.
+
+## Фаза 12: Сравнение и выбор LLM
+- [ ] **12.1 Бенчмарки**: DeepSeek-V3 vs GPT-4o-mini vs Claude-3.5-Haiku.
+- [ ] **12.2 Оценка качества (LLM Judge)**:
+    - Faithfulness & Hallucination rate.
+    - Answer groundedness (соответствие контексту).
+    - Latency (TTFT/TPOT).
+
+## Фаза 13: Контроль качества (Quality Control)
+- [ ] **13.1 Авто-тесты**:
+    - Проверка на `null`: Если > 20% ответов `null` — алерт (ошибка поиска).
+    - Проверка [retrieval](starter_kit/examples/llamaindex/advanced_rag_llamaindex.py#60-89): Если `retrieved_chunk_pages` пуст при не-null ответе — критическая ошибка.
+    - Проверка типов: Валидация форматов дат, чисел и имен перед записью в JSON.
+
+## Фаза 14: Итоговое сравнение и выбор
+- [x] **14.1 Интеграционный отчет**: Сбор всех сабмитов в один `submission_comparison_v7.csv`.
+- [ ] **14.2 Официальный сабмит**: Отправка [submission_final.json](starter_kit/submission_final.json) на сервер конкурса для получения скора оптимизированного пайплайна.
+- [ ] **14.3 Переход к Final Stage**: Масштабирование пайплайна на 900 вопросов и 300 документов.
+
+## Фаза 15: Deep Quality Cleanup & Accuracy
+- [ ] **15.1 Metadata Injection**: Создание "документного манифеста" в контексте (DocID, Date, Parties) для предотвращения галлюцинаций в номерах.
+- [ ] **15.2 Grounding Filter**: Фильтрация `retrieved_chunk_pages` только по тем страницам, которые LLM явно процитировала в ответе.
+- [ ] **15.3 Length & Quote Guard**: Жесткое ограничение 280 символов для `free_text` и исправление вложенных кавычек в детерминированных типах.
+- [ ] **15.4 Reflection Step**: Цикл "Ответ -> Проверка на расхождения -> Финальный рефакторинг".
+
+## Фаза 20: Forensic RAG Analysis - Question #2
+- [x] **20.1 Targeted Debugging**: Создание [advanced_hybrid_rag_v20.py](starter_kit/examples/llamaindex/advanced_hybrid_rag_v20.py) с изоляцией вопроса по ID.
+- [x] **20.2 Case ID Strict Filtering**: Реализована логика фильтрации: если в вопросе есть Case ID, остаются только документы с этим ID.
+- [x] **20.3 Cross-Verification Step**: Промпт усилен правилом игнорирования несовпадающих номеров дел.
+- [x] **20.4 CSV v20 validation**: Подтвержден результат `2026-02-02` для Q#2.
+
+## Дальнейшие шаги (Roadmap)
+1. **Прогон на 100 вопросах**: Запуск `v20` на всем наборе для проверки регрессии.
+2. **Финальный сабмит**: Подготовка `submission_v20_final.json`.
+
+---
+
+## Рекомендованный продвинутый стек
+
+| Компонент | Варианты для теста | Метрики |
+|-----------|--------------------|---------|
+| **PDF** | Docling, Marker, Marker-pdf | CER, WER, Layout |
+| **Embeddings** | BGE-large-en-v1.5, E5-large-v2 | Recall@k, HitRate |
+| **Retrieval** | Hybrid + BGE Reranker | Precision@k, MRR |
+| **LLM** | DeepSeek-V3, GPT-4o-mini | Groundedness, EM |
+
+---
+
+## Рекомендованный технологический стек
+
+| Компонент | Инструмент | Почему |
+|-----------|-----------|--------|
+| PDF parsing | PyMuPDF (fitz) | Использование [AdvancedPDFReader](starter_kit/examples/llamaindex/advanced_pdf_reader.py#7-68) для точного извлечения страниц |
+| OCR | Tesseract | Fallback для отсканированных страниц (пока не требуется) |
+| Embeddings | BAAI/bge-small-en-v1.5 | Локальный инференс, быстрый, подходит под лимиты контекста |
+| Vector DB | SimpleVectorStore (LlamaIndex) | Хранение в памяти для скорости и простоты на малом датасете |
+| BM25 | rank_bm25 | План: Гибридный поиск для улучшения Deterministic скора |
+| Re-ranker | LLM / Cross-Encoder | План: Фильтрация шума после retrieval |
+| LLM | DeepSeek / OpenRouter | Использование `OpenAILike` для DeepSeek и OpenRouter (`openai/gpt-4o-mini` и др.) |
+| Framework | LlamaIndex | Интеграция с [AdvancedPDFReader](starter_kit/examples/llamaindex/advanced_pdf_reader.py#7-68) и `SimpleVectorStore` |
+
+---
+
+---
+
+## Приоритеты оптимизации (по влиянию на скор)
+
+1. 🔴 **Grounding** — мультипликатор, обнуляет всё при плохом значении
+2. 🟠 **Детерминированная точность** — 70% веса в базовом скоре
+3. 🟡 **LLM quality** — 30% веса, оценивается по 5 критериям
+4. 🟢 **Телеметрия** — штраф 10% за malformed
+5. 🔵 **Скорость (TTFT)** — бонус только при хорошем базовом скоре
+
+---
+
+## User Review Required
+
+> [!IMPORTANT]
+> Перед тем как приступить к реализации, нужно принять несколько решений:
+
+1. **Какой LLM использовать?** Сейчас настроен DeepSeek. Хотите использовать его, или подключить OpenRouter/OpenAI?
+2. **С какой фазы начнём?** Рекомендую начать с Фазы 1 (скачивание + анализ), затем сразу сделать первый наивный сабмит, чтобы получить baseline скор.
+3. **Есть ли ограничения по бюджету на API-вызовы?** Это повлияет на выбор модели и количество экспериментов.
+4. **Предпочтения по framework?** LangChain, LlamaIndex, или прямые вызовы API?
+
+## Verification Plan
+
+### Baseline submission
+1. Скачать документы и вопросы: `python -c "from arlc import EvaluationClient; c=EvaluationClient.from_env(); c.download_questions('questions.json'); c.download_documents('docs_corpus')"`
+2. Запустить наивный pipeline и отправить submission
+3. Получить baseline метрики от сервера конкурса
+
+#### Текущие метрики (Baseline - DeepSeek Chat, Наивный prompt, без OCR)
+- **Total Score**: 0.2349
+- **Deterministic**: 0.7928
+- **Assistant (Free text)**: 0.7066
+- **Grounding**: 0.3603 *(Критически низко, тянет вниз весь скор)*
+- **Telemetry**: 1.0000
+- **TTFT Multiplier**: 0.85 *(Штраф за медлительность / неточный замер)*
+
+#### Метрики Фазы 2 (PyMuPDF, Chunk 512, Null-prompting)
+- **Total Score**: 0.2151 (↓ Ухудшение)
+- **Deterministic**: 0.6285 (↓ Значительное падение. Вероятно, промпт на `null` заставил модель слишком часто отказывать)
+- **Assistant (Free text)**: 0.7200 (↑ Небольшое улучшение)
+- **Grounding**: 0.3949 (↑ Улучшение, но всё ещё низко. Отправляем 5 чанков, а ответ на 1 странице → страдает precision)
+- **Telemetry**: 0.9770 (↓ Небольшой штраф, возможно пустые [retrieval](starter_kit/examples/llamaindex/advanced_rag_llamaindex.py#60-89) при null-ответах не идеальны)
+- **TTFT Multiplier**: 0.85
+
+#### Метрики Фазы 5 (LLM Attribution, JSON mode, Streaming TTFT Fix)
+- **Total Score**: **0.3600** (↑ ЗНАЧИТЕЛЬНЫЙ РОСТ!)
+- **Deterministic**: 0.6285 (Без изменений. Модель отказывается отвечать на часть вопросов из-за JSON-ограничений или нехватки контекста)
+- **Assistant (Free text)**: 0.6066 (↓ Небольшое падение из-за JSON-форматирования)
+- **Grounding**: **0.5894** (↑ Взрывной рост! Фильтрация страниц работает)
+- **Telemetry**: 0.9690
+- **Latency (TTFT)**: **1819ms** (↑ Latency > 0! Бонусный множитель **1.0134**)
+
+Вывод: Гипотеза Фазы 5 подтвердилась — точное указание страниц через LLM Attribution подняло скор почти на 55%. Проблема с TTFT решена. Теперь главный фокус — вернуть `Deterministic` скор обратно к 0.80-1.00 за счёт смягчения JSON-формата и улучшения поиска (Hybrid Search).
+
+### Incremental testing
+- После каждого улучшения — сохранять сабмит с уникальным названием (например, `submission_v10_docling.json`).
+- **НЕ ОТПРАВЛЯТЬ** на сервер без прямого подтверждения "отправь на сервер".
+- Локально проверять качество через QC-скрипт (Фаза 13).

@@ -1,0 +1,4 @@
+run_id,questions,docs,retrieval_mode,avg_ttft_ms,avg_total_time_ms,avg_retrieved_pages,null_rate,input_tokens_total,output_tokens_total,estimated_cost_usd,submission_path
+v1,25,30,hybrid,1044.12,1215.52,6.0,0.32,47553,381,0.0074,./experiments/v1/submission.json
+v2,25,30,vector_only,999.48,1203.76,5.96,0.32,52923,379,0.0082,./experiments/v2/submission.json
+v3,25,30,hybrid,1092.8,1270.2,6.0,0.28,46052,329,0.0071,./experiments/v3/submission.json

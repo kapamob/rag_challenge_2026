@@ -1,0 +1,26 @@
+run_id,question_id,question,answer_type,answer_correct,doc_id_correct,pred_page_refs,true_page_refs,source_count_status,source_count_delta
+v3,30ab0e56ee0c43b5bf94fd9657c7f7ac24f0e7be29ced2933437f7a234713cd7,"Under Article 8(1) of the Operating Law 2018, is a person permitted to operate or conduct business in or from the DIFC without being incorporated, registered, or continued under a Prescribed Law or other Legislation administered by the Registrar?",boolean,1,1,6,1,excess,5
+v3,331b267822eaa013b4a79d92f2ac5118052a57150df9a29d7d11c531f02d23cf,What is the Date of Issue of the document in case CFI 057/2025?,date,1,0,6,1,excess,5
+v3,5d271fced60d88e008a69adc2da21de427906206bfb49f5554a3bf1dd6f72772,"According to the title page of the Common Reporting Standard Law, what is its official DIFC Law number?",number,1,0,6,1,excess,5
+v3,358bf0caaa87ba7e11698c5e0bb230f5742c141f2da8a3e8969cee41ef0f7841,Do cases SCT 295/2025 and SCT 514/2025 involve any of the same legal entities or individuals as main parties?,boolean,0,0,6,2,excess,4
+v3,bce4c288236518dfd08f6bac5a75c75ea79b1250347c4b998252fa9d7265a7c3,What kind of liability do Partners have under Article 28(1) of the General Partnership Law 2004?,free_text,0,0,6,1,excess,5
+v3,6863a7f4a5e76694620518758411bc743142897fa8077f2a73701b89fa2d0b0f,"Under the Foundations Law DIFC Law No. 3 of 2018, what is the maximum fine for failing to provide a copy of an assignment of rights to the Registered Agent or Registrar within 30 days?",free_text,0,0,6,1,excess,5
+v3,150d4428704ea7ce7452509bda9c25f4d242b2395114ed0ed59388b87660f218,"Under the Operating Law - DIFC Law No. 7 of 2018, who is responsible for appointing and dismissing the Registrar?",free_text,0,0,6,1,excess,5
+v3,39890efe7db1258f568e838c284020a9fc79b8bf0deddab76fdf853c9b0171ed,Is there any main party common to both case CFI 057/2025 and case SCT 295/2025?,boolean,1,0,6,0,excess,6
+v3,acd0ddc6715f2bccf5076dc47e6874a8ecb782dd10c0b162071f890ad96bef47,"Between SCT 295/2025 and SCT 514/2025, which document has the earlier issue date?",name,1,0,6,0,excess,6
+v3,436c12cc4eb26087bd1540f5d47825712632e90b4d5b2bca6c52e3b26151f874,What was the result of the application heard in case CFI 057/2025?,free_text,0,0,6,1,excess,5
+v3,4fa07316db9a19980de495d2190350cc4b494ae0ab741cda7784e895709719e1,"Between CFI 010/2024 and SCT 169/2025, which document has the earlier issue date?",name,1,0,6,2,excess,4
+v3,1a80e5dc69fb76a97c0ada049df2425c9f06de373bbb9ee5b39dbd1f12f85387,"From the title pages of all documents in case CA 005/2025 and case CFI 067/2025, identify whether any individual or company is named as a main party in both cases.",boolean,1,0,6,2,excess,4
+v3,9f9fb4b911d75c22f2c9a42bb852848ac45594179a7d0d126c8ef0ac8941b18d,Do cases CA 004/2025 and SCT 295/2025 involve any of the same legal entities or individuals as parties?,boolean,0,0,6,2,excess,4
+v3,d374bee20e02f7f384e766dd792856c6457f99fc1491e5fee2e6cd50a4d856b7,Identify whether any person or company is a main party to both ENF 269/2023 and SCT 514/2025.,boolean,0,0,6,2,excess,4
+v3,8de44b7964cdde111c1a33ac4cc13948b7b4e14fd120351fcb5a5bfb2b2dfff0,Identify the case with the higher monetary claim: SCT 169/2025 or SCT 295/2025?,name,0,0,6,2,excess,4
+v3,a8813f8f56099bd156b5fe797cc44b061d2a54fb69ca2e748ffb7cc462eaa85e,Which case has an earlier Date of Issue: CFI 010/2024 or CFI 016/2025?,name,1,0,6,2,excess,4
+v3,fcabd6aa14e2df4b7ca00fa516a70eba6de58b74dfde30270e3fe3eec6d1da7a,Which specific DIFC Laws were amended by DIFC Law No. 2 of 2022?,free_text,0,0,6,2,excess,4
+v3,e59a0dc49c291402ead91342b065bc4e9ded0043d126f73dd00ba6045aae46b7,"Under Article 14(1) of the Employment Law 2019, how many days does an Employer have to provide an Employee with a written Employment Contract after the commencement of employment?",number,0,1,6,1,excess,5
+v3,359f1c315f2ac48e6b34ecfa503c6b9c892365985b363dc9a4e3c85563550d05,Who is the defendant in case ARB 034/2025?,name,1,0,6,1,excess,5
+v3,2fc105ec9d11e361b057e8ce21245fbc01f14cefe5ccddada9d7541c952106d2,"If a Muslim Employee works during the holy month of Ramadan, what is the maximum number of hours they can be required to work each day according to Article 23 of the Employment Law 2019?",number,0,1,6,1,excess,5
+v3,b667804a5541a24d40f211b3febc69fa5e633d52a08baf9ce6735832ea4e5ec1,"Based on the full case files for DEC 001/2025 and CFI 057/2025, was there any judge involved in both cases?",boolean,0,0,6,2,excess,4
+v3,b1d0245bb7c71b42f08a4cdbec612a56715295223472ac5a45af31811ada2f3b,"Under the Operating Law 2018, can the Registrar be held liable for acts or omissions in performing their functions if the act or omission is shown to have been in bad faith, according to Article 7(8)?",boolean,1,0,6,1,excess,5
+v3,ad7357a7eb955085f6438dfcaf44324de7fcf88da86c846242e173eacdeebfda,What was the result of the application heard in case SCT 169/2025?,free_text,0,0,6,2,excess,4
+v3,0aba04f64851d1419be984476f91f278e6ada2d6c536fd119d7ab37a8ed06593,Do cases CFI 067/2025 and SCT 514/2025 involve any of the same legal entities or individuals as main parties?,boolean,0,0,6,2,excess,4
+v3,9596fb754439e6752034890c1272a2df7c0f9000db7d186db21aa232a253fca4,What is the effective date for due diligence requirements for Pre-existing Accounts and New Accounts under the Common Reporting Standard Law 2018?,free_text,0,1,6,1,excess,5

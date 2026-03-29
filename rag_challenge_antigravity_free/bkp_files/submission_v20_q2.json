@@ -1,0 +1,38 @@
+{
+  "architecture_summary": null,
+  "answers": [
+    {
+      "question_id": "331b267822eaa013b4a79d92f2ac5118052a57150df9a29d7d11c531f02d23cf",
+      "answer": "2026-01-23",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 100,
+          "tpot_ms": 10,
+          "total_time_ms": 2947
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "443e04bc1a78940b3fcd5438d24b6c5f182a276d354a3108e738b193675de032",
+              "page_numbers": [
+                2
+              ]
+            },
+            {
+              "doc_id": "d32e76d495ac7d855d805fb71682b98d254520e3799aa4529ebc983212648335",
+              "page_numbers": [
+                1,
+                4
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "model_name": "gpt-4o-mini"
+      }
+    }
+  ]
+}

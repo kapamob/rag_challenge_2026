@@ -1,0 +1,2871 @@
+{
+  "architecture_summary": "v10_100 regex-routed: docs_list-first (llm_router) + per-document indices + constrained retrieval",
+  "answers": [
+    {
+      "question_id": "30ab0e56ee0c43b5bf94fd9657c7f7ac24f0e7be29ced2933437f7a234713cd7",
+      "answer": false,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 6523,
+          "tpot_ms": 54,
+          "total_time_ms": 12138
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "72ea171147bf30326fe6fd2e6798f607c7cef4bf9d43761dbccd2f1b6a356849",
+              "page_numbers": [
+                4,
+                8,
+                40
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 9290,
+          "output_tokens": 153
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "331b267822eaa013b4a79d92f2ac5118052a57150df9a29d7d11c531f02d23cf",
+      "answer": "2026-02-02",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 1052,
+          "tpot_ms": 19,
+          "total_time_ms": 2469
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 1886,
+          "output_tokens": 42
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "5d271fced60d88e008a69adc2da21de427906206bfb49f5554a3bf1dd6f72772",
+      "answer": 2.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 5960,
+          "tpot_ms": 48,
+          "total_time_ms": 7426
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "fbdd7f9dd299d83b1f398778da2e6765dfaaed62005667264734a1f76ec09071",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 7324,
+          "output_tokens": 54
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "358bf0caaa87ba7e11698c5e0bb230f5742c141f2da8a3e8969cee41ef0f7841",
+      "answer": false,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 6696,
+          "tpot_ms": 53,
+          "total_time_ms": 10610
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "09660f78c26cd56c08c7253ed21ba01fb246092f482ccd8acd8e6f9b6fd2d917",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "6306079a16b1dec85690f75c715cdbd78b0685a3e19ee30250d481bc32f2e29a",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 4335,
+          "output_tokens": 69
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "bce4c288236518dfd08f6bac5a75c75ea79b1250347c4b998252fa9d7265a7c3",
+      "answer": "Partners have joint and several liability under Article 28(1) of the General Partnership Law 2004.",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 15020,
+          "tpot_ms": 51,
+          "total_time_ms": 21298
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "302a0bd8d67775e8dc5960ecec7879be566300d8b32c4b0153ba15ebdb279425",
+              "page_numbers": [
+                9,
+                10,
+                11
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 11056,
+          "output_tokens": 188
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "6863a7f4a5e76694620518758411bc743142897fa8077f2a73701b89fa2d0b0f",
+      "answer": "$1,500",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 11203,
+          "tpot_ms": 183,
+          "total_time_ms": 18351
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "22442c5ee999e2519c68de908be511875a84f2b810ed540c2dcfcbcc65031434",
+              "page_numbers": [
+                46
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 9535,
+          "output_tokens": 162
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "150d4428704ea7ce7452509bda9c25f4d242b2395114ed0ed59388b87660f218",
+      "answer": "The Board of Directors of the DIFCA is responsible for appointing and dismissing the Registrar.",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 5877,
+          "tpot_ms": 88,
+          "total_time_ms": 15031
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "72ea171147bf30326fe6fd2e6798f607c7cef4bf9d43761dbccd2f1b6a356849",
+              "page_numbers": [
+                5
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 9378,
+          "output_tokens": 197
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "39890efe7db1258f568e838c284020a9fc79b8bf0deddab76fdf853c9b0171ed",
+      "answer": false,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 3803,
+          "tpot_ms": 51,
+          "total_time_ms": 6314
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "09660f78c26cd56c08c7253ed21ba01fb246092f482ccd8acd8e6f9b6fd2d917",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "1b446e196b4d1752241c8ff689a31ea705e98ad0c16b9d343c303664f72b64a1",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 4188,
+          "output_tokens": 69
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "acd0ddc6715f2bccf5076dc47e6874a8ecb782dd10c0b162071f890ad96bef47",
+      "answer": "SCT 295/2025",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 1356,
+          "tpot_ms": 17,
+          "total_time_ms": 3425
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 1890,
+          "output_tokens": 63
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "436c12cc4eb26087bd1540f5d47825712632e90b4d5b2bca6c52e3b26151f874",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 5835,
+          "tpot_ms": 57,
+          "total_time_ms": 14933
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "1a255edc261961ec64870466a27ac4e25b5ebc2abe298e1b69f8dd2fc27288f6",
+              "page_numbers": [
+                2
+              ]
+            },
+            {
+              "doc_id": "1b446e196b4d1752241c8ff689a31ea705e98ad0c16b9d343c303664f72b64a1",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "897ab23ed5a70034d3d708d871ad1da8bc7b6608d94b1ca46b5d578d985d3c13",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 9255,
+          "output_tokens": 152
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "4fa07316db9a19980de495d2190350cc4b494ae0ab741cda7784e895709719e1",
+      "answer": "CFI 010/2024",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 5212,
+          "tpot_ms": 43,
+          "total_time_ms": 8132
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "3a574fc4f0baa5ec7ff0dcc822d7c55e4f9c493c24addc217c8df3d848c16fa5",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "443e04bc1a78940b3fcd5438d24b6c5f182a276d354a3108e738b193675de032",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 4032,
+          "output_tokens": 71
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "1a80e5dc69fb76a97c0ada049df2425c9f06de373bbb9ee5b39dbd1f12f85387",
+      "answer": false,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 4812,
+          "tpot_ms": 31,
+          "total_time_ms": 7396
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "03b621728fe29eb6113fcdb57f6458d793fd2d5c5b833ae26d40f04a29c85359",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "437568a801115019fe8278385c0484bdf07ab86f9a499ecaba2b7969b37c764b",
+              "page_numbers": [
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 5874,
+          "output_tokens": 69
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "9f9fb4b911d75c22f2c9a42bb852848ac45594179a7d0d126c8ef0ac8941b18d",
+      "answer": false,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 4383,
+          "tpot_ms": 42,
+          "total_time_ms": 7362
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "09660f78c26cd56c08c7253ed21ba01fb246092f482ccd8acd8e6f9b6fd2d917",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "78ffe994cdc61ce6a2a6937c79fc52751bb5d2b4eaa4019f088fbccf70569c26",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 4342,
+          "output_tokens": 69
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "d374bee20e02f7f384e766dd792856c6457f99fc1491e5fee2e6cd50a4d856b7",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 8951,
+          "tpot_ms": 42,
+          "total_time_ms": 11855
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "5d3df6d69fac3ef91e13ac835b43a35e9e434fbc7e72ea5c01e288d69b66e6a2",
+              "page_numbers": [
+                7,
+                8,
+                10
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 5655,
+          "output_tokens": 70
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "8de44b7964cdde111c1a33ac4cc13948b7b4e14fd120351fcb5a5bfb2b2dfff0",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 3605,
+          "tpot_ms": 49,
+          "total_time_ms": 6298
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "09660f78c26cd56c08c7253ed21ba01fb246092f482ccd8acd8e6f9b6fd2d917",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "3a574fc4f0baa5ec7ff0dcc822d7c55e4f9c493c24addc217c8df3d848c16fa5",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 4344,
+          "output_tokens": 69
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "a8813f8f56099bd156b5fe797cc44b061d2a54fb69ca2e748ffb7cc462eaa85e",
+      "answer": "CFI 010/2024",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 1488,
+          "tpot_ms": 31,
+          "total_time_ms": 5106
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 1887,
+          "output_tokens": 63
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "fcabd6aa14e2df4b7ca00fa516a70eba6de58b74dfde30270e3fe3eec6d1da7a",
+      "answer": "DIFC Law No. 3 of 2004 (Law on the Application of Civil and Commercial Laws in the DIFC) and DIFC Law No. 5 of 2004 (Limited Liability Partnership Law).",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 4529,
+          "tpot_ms": 52,
+          "total_time_ms": 8949
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "536bbce854b9406cc22697e04fcdabd645e030c0e55b918252643b00e0b2b25f",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "b82ac8228e051d96bf8d706d3251893ebff1c9457b066fce3b7cb99af956f2a7",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "ff746f7b583490a80ba104361c0a82a1ebbf7ed9097cd03dc49d744cb5057761",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 4001,
+          "output_tokens": 145
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "e59a0dc49c291402ead91342b065bc4e9ded0043d126f73dd00ba6045aae46b7",
+      "answer": 7.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 6024,
+          "tpot_ms": 59,
+          "total_time_ms": 11791
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "33bc02044716acdfedb164b065bdaec098aaadcae863c591f9931c88e7307d16",
+              "page_numbers": [
+                7,
+                8,
+                28
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 10919,
+          "output_tokens": 158
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "359f1c315f2ac48e6b34ecfa503c6b9c892365985b363dc9a4e3c85563550d05",
+      "answer": "ONORA",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 7699,
+          "tpot_ms": 34,
+          "total_time_ms": 14189
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "58eae81bf668e7f6c58619f419a49b5e35e2e5c9c7475475ace28ec562580545",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 9295,
+          "output_tokens": 151
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "2fc105ec9d11e361b057e8ce21245fbc01f14cefe5ccddada9d7541c952106d2",
+      "answer": 6.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 3950,
+          "tpot_ms": 31,
+          "total_time_ms": 7208
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "33bc02044716acdfedb164b065bdaec098aaadcae863c591f9931c88e7307d16",
+              "page_numbers": [
+                14
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 8558,
+          "output_tokens": 93
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "b667804a5541a24d40f211b3febc69fa5e633d52a08baf9ce6735832ea4e5ec1",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 4687,
+          "tpot_ms": 54,
+          "total_time_ms": 7575
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "1a255edc261961ec64870466a27ac4e25b5ebc2abe298e1b69f8dd2fc27288f6",
+              "page_numbers": [
+                2
+              ]
+            },
+            {
+              "doc_id": "1b446e196b4d1752241c8ff689a31ea705e98ad0c16b9d343c303664f72b64a1",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "3f8a5ea0e051ba3af7a02da340c911fe0970ebece6c852c3e61a10c00cac6d6e",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 6606,
+          "output_tokens": 70
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "b1d0245bb7c71b42f08a4cdbec612a56715295223472ac5a45af31811ada2f3b",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 9226,
+          "tpot_ms": 43,
+          "total_time_ms": 15438
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "72ea171147bf30326fe6fd2e6798f607c7cef4bf9d43761dbccd2f1b6a356849",
+              "page_numbers": [
+                7,
+                28,
+                36
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 10603,
+          "output_tokens": 176
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "ad7357a7eb955085f6438dfcaf44324de7fcf88da86c846242e173eacdeebfda",
+      "answer": "The Permission to Appeal Application is refused, the request for an adjournment of the Hearing is refused, and there shall be no order as to costs.",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 5944,
+          "tpot_ms": 67,
+          "total_time_ms": 11892
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "3a574fc4f0baa5ec7ff0dcc822d7c55e4f9c493c24addc217c8df3d848c16fa5",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 10656,
+          "output_tokens": 187
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "0aba04f64851d1419be984476f91f278e6ada2d6c536fd119d7ab37a8ed06593",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 3172,
+          "tpot_ms": 35,
+          "total_time_ms": 5267
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "897ab23ed5a70034d3d708d871ad1da8bc7b6608d94b1ca46b5d578d985d3c13",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 3934,
+          "output_tokens": 69
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "9596fb754439e6752034890c1272a2df7c0f9000db7d186db21aa232a253fca4",
+      "answer": "The effective date for due diligence requirements under the Common Reporting Standard Law 2018 is 31 December, 2016 for Pre-existing Accounts and 1 January, 2017 for New Accounts.",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 4556,
+          "tpot_ms": 74,
+          "total_time_ms": 9517
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "fbdd7f9dd299d83b1f398778da2e6765dfaaed62005667264734a1f76ec09071",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 10462,
+          "output_tokens": 144
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "9f48d8eca6d10cf26f60226078f0d9cb32d3aa2fd25c90c312549cb6265ebd84",
+      "answer": "The Ruler of Dubai.",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 4808,
+          "tpot_ms": 53,
+          "total_time_ms": 11956
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "536bbce854b9406cc22697e04fcdabd645e030c0e55b918252643b00e0b2b25f",
+              "page_numbers": [
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 6402,
+          "output_tokens": 189
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "802d12a65530cd728da4c2f4430275488285ced247123431a905f8d525e80ede",
+      "answer": false,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 6062,
+          "tpot_ms": 55,
+          "total_time_ms": 11637
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "58eae81bf668e7f6c58619f419a49b5e35e2e5c9c7475475ace28ec562580545",
+              "page_numbers": [
+                2,
+                3,
+                4
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 10156,
+          "output_tokens": 152
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "84ef7f354a41168e99812515cd775297b36c35a541c5b8eb1978be771554b546",
+      "answer": 6.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 6714,
+          "tpot_ms": 47,
+          "total_time_ms": 11572
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "33bc02044716acdfedb164b065bdaec098aaadcae863c591f9931c88e7307d16",
+              "page_numbers": [
+                8
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 8122,
+          "output_tokens": 151
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "5046b4e3fa11a42090ae0cef08c4cd64a1c8761955eb711db396f7fb1634ea86",
+      "answer": "ENF-316-2023/2",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 5321,
+          "tpot_ms": 48,
+          "total_time_ms": 11228
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "bd2d222ee0a636a745434cfb457321cd658db5bb32b5f0a3f5643236cc1503d8",
+              "page_numbers": [
+                2
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 9713,
+          "output_tokens": 152
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "042ddf2ed161068fab8072f16e01a15e11da9d741d207bfc0185e5133a810193",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 1314,
+          "tpot_ms": 17,
+          "total_time_ms": 2513
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 1911,
+          "output_tokens": 41
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "e14ad296801b3fb6855a3a9338f1e9b8e2d1bfb05c99682a3cf4f9140b49b17b",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 6713,
+          "tpot_ms": 80,
+          "total_time_ms": 11152
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "4e387152960c1029b3711cacb05b287b13c977bc61f2558059a62b7b427a62eb",
+              "page_numbers": [
+                4,
+                6,
+                7
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 9032,
+          "output_tokens": 163
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "f33177fc2ed5b35033bfa1c7f9fc5d7a3776feb10b498c375cdcb40e0c53ffbf",
+      "answer": false,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 3854,
+          "tpot_ms": 31,
+          "total_time_ms": 6357
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "6306079a16b1dec85690f75c715cdbd78b0685a3e19ee30250d481bc32f2e29a",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "78ffe994cdc61ce6a2a6937c79fc52751bb5d2b4eaa4019f088fbccf70569c26",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 4328,
+          "output_tokens": 69
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "f29159d38bf494e330b32f03507df593d5869a129796a3b7f6efe14fd1b1a0a5",
+      "answer": "An Employer is required to keep records of the following information regarding an Employee's remuneration:  \n(a) the amount of the Remuneration payable;  \n(b) the amount of any deduction from that amount and the purpose for which it is made;  \n(e) each deduction made from the Emp",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 5748,
+          "tpot_ms": 40,
+          "total_time_ms": 14708
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "33bc02044716acdfedb164b065bdaec098aaadcae863c591f9931c88e7307d16",
+              "page_numbers": [
+                8,
+                9,
+                11
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 11238,
+          "output_tokens": 333
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "2e8b251fd560f4446bfc9c5fa4b83ecbce69d650a8fd00fc9815c1fb34a764ad",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 3876,
+          "tpot_ms": 43,
+          "total_time_ms": 6664
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "0471e83c1ea18086cfb6b3ff51da6f22b0efee337f10315b2593f782297ccb84",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "62930da32fa3172edf2f2bbf3da268455bd99a7b5fab34d72358730d8cd5da30",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "c98c1475692bc22f4abab6a7a7d7969467c94e46a7e68919aaf127179ebf3f54",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 6219,
+          "output_tokens": 70
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "fa672c84261a575ba49aba560b6a00c5d944ab9373b764c743d79821658e0052",
+      "answer": "The No Costs Application is dismissed, and the Claimant is to pay AED 70,000 in costs to the Defendant.",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 7947,
+          "tpot_ms": 55,
+          "total_time_ms": 14156
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "09660f78c26cd56c08c7253ed21ba01fb246092f482ccd8acd8e6f9b6fd2d917",
+              "page_numbers": [
+                11
+              ]
+            },
+            {
+              "doc_id": "6248961b681ea0deb189f354be0c8286f35974dcdb211c13c921c3dd0e566a6e",
+              "page_numbers": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 10764,
+          "output_tokens": 176
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "7aae865f328e2012c31b41b6e2cccac715c14df5b56ec548d3fa9cb6bc46dcd1",
+      "answer": false,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 11072,
+          "tpot_ms": 58,
+          "total_time_ms": 20259
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "302a0bd8d67775e8dc5960ecec7879be566300d8b32c4b0153ba15ebdb279425",
+              "page_numbers": [
+                5
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 9175,
+          "output_tokens": 184
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "e0798bd394af022603f1ed7a09641de2bb414bd14a9d6a2c494980c86095ccff",
+      "answer": 15.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 5014,
+          "tpot_ms": 71,
+          "total_time_ms": 17059
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "fbdd7f9dd299d83b1f398778da2e6765dfaaed62005667264734a1f76ec09071",
+              "page_numbers": [
+                13
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 9815,
+          "output_tokens": 137
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "32bb32856c65215eddb17d2b5b938f58b4bec525af96f8637686e33b0d696e89",
+      "answer": false,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 7550,
+          "tpot_ms": 41,
+          "total_time_ms": 13135
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "4e387152960c1029b3711cacb05b287b13c977bc61f2558059a62b7b427a62eb",
+              "page_numbers": [
+                15
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 10192,
+          "output_tokens": 177
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "698e30385362eebe29a7fd618bb6d5fc2d213fca30eb008f0496d3887d6b4677",
+      "answer": false,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 4178,
+          "tpot_ms": 37,
+          "total_time_ms": 7300
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "58eae81bf668e7f6c58619f419a49b5e35e2e5c9c7475475ace28ec562580545",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "6306079a16b1dec85690f75c715cdbd78b0685a3e19ee30250d481bc32f2e29a",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 4218,
+          "output_tokens": 69
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "52a35cfabe76f2c538c6f72a841a08e0cc85bbe8f732874a4d2827383794c213",
+      "answer": false,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 4215,
+          "tpot_ms": 25,
+          "total_time_ms": 6566
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "58eae81bf668e7f6c58619f419a49b5e35e2e5c9c7475475ace28ec562580545",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "78ffe994cdc61ce6a2a6937c79fc52751bb5d2b4eaa4019f088fbccf70569c26",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 4217,
+          "output_tokens": 66
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "a341025df493b0e6a962fa637e3df6fe053c3de28cb2f5c8eb0814067af32b95",
+      "answer": "The retention periods for records according to Article 12(4) of the Common Reporting Standard Law and Article 18(2)(b) of the General Partnership Law are both six (6) years from the date upon which they were created.",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 5702,
+          "tpot_ms": 90,
+          "total_time_ms": 13337
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "b82ac8228e051d96bf8d706d3251893ebff1c9457b066fce3b7cb99af956f2a7",
+              "page_numbers": [
+                13,
+                18
+              ]
+            },
+            {
+              "doc_id": "fbdd7f9dd299d83b1f398778da2e6765dfaaed62005667264734a1f76ec09071",
+              "page_numbers": [
+                7
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 11210,
+          "output_tokens": 209
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "acd7d2aea67ff920768aae75300837412f603e0e29f048ea33171ba52c1c0cd8",
+      "answer": "ENF 269/2023",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 1438,
+          "tpot_ms": 14,
+          "total_time_ms": 3292
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 1887,
+          "output_tokens": 63
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "f2a28b01dbdda99ec2b09a7001ea72e35b94a42c14c4bc5e5206c59857770306",
+      "answer": false,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 3808,
+          "tpot_ms": 31,
+          "total_time_ms": 5724
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "1b446e196b4d1752241c8ff689a31ea705e98ad0c16b9d343c303664f72b64a1",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "5d3df6d69fac3ef91e13ac835b43a35e9e434fbc7e72ea5c01e288d69b66e6a2",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 4223,
+          "output_tokens": 69
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "3c33f9a4de9bac177c65e3c3bd986ef05e527095e4c96aabbbed76599b727eb0",
+      "answer": [
+        "Olexa"
+      ],
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 4740,
+          "tpot_ms": 43,
+          "total_time_ms": 10324
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "09660f78c26cd56c08c7253ed21ba01fb246092f482ccd8acd8e6f9b6fd2d917",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 9550,
+          "output_tokens": 151
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "b982f3b308042c0eb23dfe264a56ab53866fbea5d3981c4bfcf3ffb6de22054e",
+      "answer": "There is no information on this question in the provided documents.",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 1198,
+          "tpot_ms": 14,
+          "total_time_ms": 2213
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 1888,
+          "output_tokens": 40
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "cdddeb6a063f29cbea5f10b3dccbd83aa16849e1f3124e223d141d1578efeb0a",
+      "answer": [
+        "Fursa Consulting"
+      ],
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 5102,
+          "tpot_ms": 111,
+          "total_time_ms": 10506
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "443e04bc1a78940b3fcd5438d24b6c5f182a276d354a3108e738b193675de032",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 8229,
+          "output_tokens": 154
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "f5c27c961e218728abde9ff9031d1701cb36db4a2e590d2dbd8914dd28a27b20",
+      "answer": 30.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 6971,
+          "tpot_ms": 52,
+          "total_time_ms": 11899
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "fbdd7f9dd299d83b1f398778da2e6765dfaaed62005667264734a1f76ec09071",
+              "page_numbers": [
+                11,
+                12,
+                17
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 11455,
+          "output_tokens": 157
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "7b31467fd9f391a836ecd316b258a6d5e849cb62a9a0c95573b084c1d1338ba0",
+      "answer": 12.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 5210,
+          "tpot_ms": 33,
+          "total_time_ms": 10080
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "72ea171147bf30326fe6fd2e6798f607c7cef4bf9d43761dbccd2f1b6a356849",
+              "page_numbers": [
+                9
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 8094,
+          "output_tokens": 175
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "6b20dd63f6b2072c51f7063e32f5accf7218fd36fdfcc3fb627867139b41359e",
+      "answer": "SCT 295/2025",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 4100,
+          "tpot_ms": 14,
+          "total_time_ms": 5843
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 1887,
+          "output_tokens": 63
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "a499c8553e73100d9ecc8ccd1164beea4b82fa6b32c519de1a37c861925076a1",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 5373,
+          "tpot_ms": 44,
+          "total_time_ms": 11641
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "72ea171147bf30326fe6fd2e6798f607c7cef4bf9d43761dbccd2f1b6a356849",
+              "page_numbers": [
+                18
+              ]
+            },
+            {
+              "doc_id": "fbdd7f9dd299d83b1f398778da2e6765dfaaed62005667264734a1f76ec09071",
+              "page_numbers": [
+                9,
+                10
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 9249,
+          "output_tokens": 200
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "de67a8574c9e4352ba32d662761e8b2e59ce1d2ae36c33cf5c563dfc5d879920",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 5225,
+          "tpot_ms": 38,
+          "total_time_ms": 9504
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "437568a801115019fe8278385c0484bdf07ab86f9a499ecaba2b7969b37c764b",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "c98c1475692bc22f4abab6a7a7d7969467c94e46a7e68919aaf127179ebf3f54",
+              "page_numbers": [
+                1,
+                5
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 7372,
+          "output_tokens": 131
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "e153746c20cc385a520728ac381151f424c9eee10e4c582904fee70afe9af243",
+      "answer": 6.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 5695,
+          "tpot_ms": 41,
+          "total_time_ms": 10592
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "33bc02044716acdfedb164b065bdaec098aaadcae863c591f9931c88e7307d16",
+              "page_numbers": [
+                6,
+                12
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 10135,
+          "output_tokens": 134
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "922dcd5ae0d2420ec5577ed8094f593124f7b69f7e61b12c24ad46410114e8ae",
+      "answer": 4.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 3614,
+          "tpot_ms": 45,
+          "total_time_ms": 8769
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "4e387152960c1029b3711cacb05b287b13c977bc61f2558059a62b7b427a62eb",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 5678,
+          "output_tokens": 169
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "f950917f9b85f687161b1022a11c3ce31e4f6ab459af69dfea311c20893fc8a7",
+      "answer": [
+        "COINMENA B.S.C. (C)"
+      ],
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 3807,
+          "tpot_ms": 53,
+          "total_time_ms": 9037
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "897ab23ed5a70034d3d708d871ad1da8bc7b6608d94b1ca46b5d578d985d3c13",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 8499,
+          "output_tokens": 154
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "254c8499b22ba05b0b1536c111b23e8afb031d0ed14af5970f665d6b1e821e65",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 5799,
+          "tpot_ms": 36,
+          "total_time_ms": 10390
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "33bc02044716acdfedb164b065bdaec098aaadcae863c591f9931c88e7307d16",
+              "page_numbers": [
+                17,
+                18,
+                19
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 10671,
+          "output_tokens": 157
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "322674cd65809bde505d9f50edb1bf7e1674f7e118a8179617732a3942b52d74",
+      "answer": 6.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 4908,
+          "tpot_ms": 66,
+          "total_time_ms": 11346
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "302a0bd8d67775e8dc5960ecec7879be566300d8b32c4b0153ba15ebdb279425",
+              "page_numbers": [
+                8
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 7890,
+          "output_tokens": 178
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "87a1294f4e8414adaf49579d914252f4c7a9e90c54a452b5a420bed4934ce335",
+      "answer": "An English translation.",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 5269,
+          "tpot_ms": 49,
+          "total_time_ms": 10672
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "fbdd7f9dd299d83b1f398778da2e6765dfaaed62005667264734a1f76ec09071",
+              "page_numbers": [
+                7,
+                8,
+                10
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 11015,
+          "output_tokens": 160
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "b2fcc22c0bfc27e799fec5df74c911114a91f83d0aa2995729390d6c8cb80c1a",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 4038,
+          "tpot_ms": 50,
+          "total_time_ms": 14914
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "536bbce854b9406cc22697e04fcdabd645e030c0e55b918252643b00e0b2b25f",
+              "page_numbers": [
+                1,
+                3,
+                18
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 8427,
+          "output_tokens": 165
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "8167b0cfeb476ce373ca991b28b3b35f78a8c3c9a5e3d1b682fdbb0ed5604ef4",
+      "answer": "The Permission to Appeal Application is refused.",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 4357,
+          "tpot_ms": 37,
+          "total_time_ms": 10292
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "1b446e196b4d1752241c8ff689a31ea705e98ad0c16b9d343c303664f72b64a1",
+              "page_numbers": [
+                2
+              ]
+            },
+            {
+              "doc_id": "3a574fc4f0baa5ec7ff0dcc822d7c55e4f9c493c24addc217c8df3d848c16fa5",
+              "page_numbers": [
+                2
+              ]
+            },
+            {
+              "doc_id": "6306079a16b1dec85690f75c715cdbd78b0685a3e19ee30250d481bc32f2e29a",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 9809,
+          "output_tokens": 164
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "2e211d0cdb29134de759b277c8b8ed5b8fe43f033dcec1e4bd15feafb1dbb8ab",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 3990,
+          "tpot_ms": 40,
+          "total_time_ms": 6299
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "1a255edc261961ec64870466a27ac4e25b5ebc2abe298e1b69f8dd2fc27288f6",
+              "page_numbers": [
+                7
+              ]
+            },
+            {
+              "doc_id": "3f8a5ea0e051ba3af7a02da340c911fe0970ebece6c852c3e61a10c00cac6d6e",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "839de9798f377492eee68f82b202d7cd3544be83d799f6226a02f3678c9bb914",
+              "page_numbers": [
+                6
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 6798,
+          "output_tokens": 70
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "89f4b2e86cf7e48e185b9d5775d67e7c8a51beccbb20abce8dac2a1b0e80b723",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 3845,
+          "tpot_ms": 23,
+          "total_time_ms": 8720
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "5d3df6d69fac3ef91e13ac835b43a35e9e434fbc7e72ea5c01e288d69b66e6a2",
+              "page_numbers": [
+                5,
+                6,
+                17
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 10087,
+          "output_tokens": 151
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "98d473221f50a845466544b43d6bb52b0497893aade63a8659db228459c271b4",
+      "answer": "The consolidated version of the Law on the Application of Civil and Commercial Laws in the DIFC was published as Law No. 2 of 2022.",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 1233,
+          "tpot_ms": 18,
+          "total_time_ms": 3002
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 1900,
+          "output_tokens": 74
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "5cb2e9e631929fec4306d0bf7cbf145bcfe5f29d86eade85178d359852626cbf",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 5428,
+          "tpot_ms": 42,
+          "total_time_ms": 10983
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "ff746f7b583490a80ba104361c0a82a1ebbf7ed9097cd03dc49d744cb5057761",
+              "page_numbers": [
+                2,
+                3,
+                4
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 9881,
+          "output_tokens": 152
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "30167c4bda50157907608b180c50e4e49902b0cb6bd09b6461b6c7cb75961a1b",
+      "answer": "The court's final ruling in case CFI 010/2024 concluded that the appeal was allowed and the application for security was remitted to the Court of First Instance (CFI) for reconsideration. The existing order for security was to remain in place pending this reconsideration, and any",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 5814,
+          "tpot_ms": 57,
+          "total_time_ms": 13631
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "03b621728fe29eb6113fcdb57f6458d793fd2d5c5b833ae26d40f04a29c85359",
+              "page_numbers": [
+                2
+              ]
+            },
+            {
+              "doc_id": "437568a801115019fe8278385c0484bdf07ab86f9a499ecaba2b7969b37c764b",
+              "page_numbers": [
+                2
+              ]
+            },
+            {
+              "doc_id": "443e04bc1a78940b3fcd5438d24b6c5f182a276d354a3108e738b193675de032",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 10506,
+          "output_tokens": 300
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "30040cc854022341de6bb9ee7dc3e932d540666a1addda4750bf974ce9d9292f",
+      "answer": "ENF 269/2023",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 1354,
+          "tpot_ms": 15,
+          "total_time_ms": 3249
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 1887,
+          "output_tokens": 63
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "33060f268efcac79c65cd3e0a39bc0f7d91d9bb1802bc2e08bfa43ec5a5cd355",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 3773,
+          "tpot_ms": 34,
+          "total_time_ms": 8913
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "72ea171147bf30326fe6fd2e6798f607c7cef4bf9d43761dbccd2f1b6a356849",
+              "page_numbers": [
+                19
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 9870,
+          "output_tokens": 159
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "0149374f1699ab209f6169cffcdd94f45072fca07fbf7a580720760f5c32f658",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 4417,
+          "tpot_ms": 73,
+          "total_time_ms": 10538
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "33bc02044716acdfedb164b065bdaec098aaadcae863c591f9931c88e7307d16",
+              "page_numbers": [
+                7
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 10308,
+          "output_tokens": 155
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "5c3ca60614572a117bb7436e202cb32249c186ad8c5526b35a3556b54ff425b7",
+      "answer": "CA 004/2025",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 1089,
+          "tpot_ms": 15,
+          "total_time_ms": 2842
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 1887,
+          "output_tokens": 63
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "52e9e31a6d7a80a597147115b3d38065da495a41e7c11e797d0a190c9a580bcf",
+      "answer": "The Permission to Appeal Application is refused, and there shall be no order as to costs.",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 4359,
+          "tpot_ms": 70,
+          "total_time_ms": 13391
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "09660f78c26cd56c08c7253ed21ba01fb246092f482ccd8acd8e6f9b6fd2d917",
+              "page_numbers": [
+                1,
+                2
+              ]
+            },
+            {
+              "doc_id": "3a574fc4f0baa5ec7ff0dcc822d7c55e4f9c493c24addc217c8df3d848c16fa5",
+              "page_numbers": [
+                2
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 10538,
+          "output_tokens": 173
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "fdeb03aecacff6f7d78a86ff22a13e95abe014855c18282b142d6ad1f46daa0a",
+      "answer": false,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 3629,
+          "tpot_ms": 42,
+          "total_time_ms": 6924
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "1a255edc261961ec64870466a27ac4e25b5ebc2abe298e1b69f8dd2fc27288f6",
+              "page_numbers": [
+                2
+              ]
+            },
+            {
+              "doc_id": "62930da32fa3172edf2f2bbf3da268455bd99a7b5fab34d72358730d8cd5da30",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "c98c1475692bc22f4abab6a7a7d7969467c94e46a7e68919aaf127179ebf3f54",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 8162,
+          "output_tokens": 111
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "eeffebf44c689e60729c466dd3fda5e7c2731c84220464c1808ef661452d1de0",
+      "answer": "The Court of Appeal allowed the Appeal to the extent shown in the order, restoring the Second Part 50 order in its amended form against Ms Onita and dismissing the Appeal against the Order concerning Mr Oron. The Appellant is entitled to its costs with a measure of discount.",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 5788,
+          "tpot_ms": 31,
+          "total_time_ms": 10375
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "437568a801115019fe8278385c0484bdf07ab86f9a499ecaba2b7969b37c764b",
+              "page_numbers": [
+                2
+              ]
+            },
+            {
+              "doc_id": "78ffe994cdc61ce6a2a6937c79fc52751bb5d2b4eaa4019f088fbccf70569c26",
+              "page_numbers": [
+                2
+              ]
+            },
+            {
+              "doc_id": "bd2d222ee0a636a745434cfb457321cd658db5bb32b5f0a3f5643236cc1503d8",
+              "page_numbers": [
+                14
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 11091,
+          "output_tokens": 218
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "6c32a091c7108047fabbea4f78137837d79c46a5a864963872cb7035ea9cce0f",
+      "answer": 550000.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 4823,
+          "tpot_ms": 108,
+          "total_time_ms": 9711
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "03b621728fe29eb6113fcdb57f6458d793fd2d5c5b833ae26d40f04a29c85359",
+              "page_numbers": [
+                1,
+                3
+              ]
+            },
+            {
+              "doc_id": "437568a801115019fe8278385c0484bdf07ab86f9a499ecaba2b7969b37c764b",
+              "page_numbers": [
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 8247,
+          "output_tokens": 139
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "f564b1fd7332944fa826e3af69330b53e8fed018c370dde5b57a8e338d4ecd62",
+      "answer": "CFI 016/2025",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 4543,
+          "tpot_ms": 65,
+          "total_time_ms": 7065
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "1b446e196b4d1752241c8ff689a31ea705e98ad0c16b9d343c303664f72b64a1",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "6248961b681ea0deb189f354be0c8286f35974dcdb211c13c921c3dd0e566a6e",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 4156,
+          "output_tokens": 67
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "b31a702f36e2c43e845e13f160ebc35d3d6ea27eb66a351561a94f0ce56b8667",
+      "answer": false,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 4803,
+          "tpot_ms": 61,
+          "total_time_ms": 8401
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "33bc02044716acdfedb164b065bdaec098aaadcae863c591f9931c88e7307d16",
+              "page_numbers": [
+                44
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 9026,
+          "output_tokens": 96
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "b13500141f04c86f328b49c56ba01c7bc13bce5afee9646860912718291a5c1a",
+      "answer": false,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 5019,
+          "tpot_ms": 43,
+          "total_time_ms": 10764
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "72ea171147bf30326fe6fd2e6798f607c7cef4bf9d43761dbccd2f1b6a356849",
+              "page_numbers": [
+                5,
+                6,
+                29
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 9270,
+          "output_tokens": 176
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "43f77ed8a37c7af9b3e52b0532c593c768f8f1159db9b9ca717a700d6b0a47f9",
+      "answer": [
+        "ARCHITERIORS INTERIOR DESIGN (L.L.C)"
+      ],
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 4221,
+          "tpot_ms": 61,
+          "total_time_ms": 8383
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "0471e83c1ea18086cfb6b3ff51da6f22b0efee337f10315b2593f782297ccb84",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "62930da32fa3172edf2f2bbf3da268455bd99a7b5fab34d72358730d8cd5da30",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "c98c1475692bc22f4abab6a7a7d7969467c94e46a7e68919aaf127179ebf3f54",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 5212,
+          "output_tokens": 99
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "12eaaba41338f13b21be7ab9fa1d754390b7aab512e9f33ea7184cc2b2f54d86",
+      "answer": false,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 3109,
+          "tpot_ms": 41,
+          "total_time_ms": 5877
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "443e04bc1a78940b3fcd5438d24b6c5f182a276d354a3108e738b193675de032",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "78ffe994cdc61ce6a2a6937c79fc52751bb5d2b4eaa4019f088fbccf70569c26",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 5743,
+          "output_tokens": 89
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "1097af38db84c4d507357bfbdcbbcc1de60a0ccb10752bad8091a75b8f53eb5c",
+      "answer": "The minimum period for which a DIFC-incorporated General Partnership and a DIFC-incorporated Limited Liability Partnership must preserve their accounting records is at least six (6) years from the date upon which they were created.",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 4714,
+          "tpot_ms": 47,
+          "total_time_ms": 11393
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "302a0bd8d67775e8dc5960ecec7879be566300d8b32c4b0153ba15ebdb279425",
+              "page_numbers": [
+                7
+              ]
+            },
+            {
+              "doc_id": "b82ac8228e051d96bf8d706d3251893ebff1c9457b066fce3b7cb99af956f2a7",
+              "page_numbers": [
+                13,
+                18
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 7929,
+          "output_tokens": 245
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "0a414e1d999bcde13b5dac055194ed52527555ac577946acef75372eaad360fa",
+      "answer": "The jury decided to allow the appeal and remitted the application for security to the Court of First Instance (CFI) for reconsideration. The existing order for security was to remain in place until reconsideration, and any security already posted was to be maintained unless varie",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 6899,
+          "tpot_ms": 68,
+          "total_time_ms": 14029
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "1a255edc261961ec64870466a27ac4e25b5ebc2abe298e1b69f8dd2fc27288f6",
+              "page_numbers": [
+                2
+              ]
+            },
+            {
+              "doc_id": "437568a801115019fe8278385c0484bdf07ab86f9a499ecaba2b7969b37c764b",
+              "page_numbers": [
+                2
+              ]
+            },
+            {
+              "doc_id": "5d3df6d69fac3ef91e13ac835b43a35e9e434fbc7e72ea5c01e288d69b66e6a2",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 9614,
+          "output_tokens": 227
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "146567e3d096312584103b24983e3ff8e904e4ec5dea993d9774d24fef15fce7",
+      "answer": 6.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 9224,
+          "tpot_ms": 50,
+          "total_time_ms": 14143
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "302a0bd8d67775e8dc5960ecec7879be566300d8b32c4b0153ba15ebdb279425",
+              "page_numbers": [
+                6,
+                7,
+                8
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 11033,
+          "output_tokens": 138
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "81d5652bd7e7518381629876f05fdded589e1acc60c8e93aae54488d23493214",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 4293,
+          "tpot_ms": 40,
+          "total_time_ms": 6494
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "58eae81bf668e7f6c58619f419a49b5e35e2e5c9c7475475ace28ec562580545",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "897ab23ed5a70034d3d708d871ad1da8bc7b6608d94b1ca46b5d578d985d3c13",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 4003,
+          "output_tokens": 69
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "ca8aebcc86f2b1ea064a28736c67b04357474bcf1128890991c73a237091638a",
+      "answer": 30.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 4858,
+          "tpot_ms": 30,
+          "total_time_ms": 9701
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "72ea171147bf30326fe6fd2e6798f607c7cef4bf9d43761dbccd2f1b6a356849",
+              "page_numbers": [
+                10
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 8257,
+          "output_tokens": 174
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "d9d27c9cace6eafd11dbb349244e0443e16c8cc0efdf516514cc945135e1a597",
+      "answer": "SCT 295/2025 was issued first on 2025-12-10, while ARB 034/2025 was issued later on 2025-12-19.",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 1238,
+          "tpot_ms": 22,
+          "total_time_ms": 2538
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 1885,
+          "output_tokens": 43
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "be35b591e2e2383879988055e11ebf31df0e145903e04b4e0c6fca1786ff634d",
+      "answer": "The court decided to refuse final anti-suit relief and to discharge the ASI Order, dismissing the ASI Order and granting the Defendant’s Set Aside Application.",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 5101,
+          "tpot_ms": 50,
+          "total_time_ms": 11203
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "58eae81bf668e7f6c58619f419a49b5e35e2e5c9c7475475ace28ec562580545",
+              "page_numbers": [
+                1,
+                4
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 8477,
+          "output_tokens": 189
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "8bf189fe861d79f2e2dfb2e9126fe590c41f6034afc0ee1ef5aefa61202b9d01",
+      "answer": false,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 4520,
+          "tpot_ms": 34,
+          "total_time_ms": 6209
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "1a255edc261961ec64870466a27ac4e25b5ebc2abe298e1b69f8dd2fc27288f6",
+              "page_numbers": [
+                2
+              ]
+            },
+            {
+              "doc_id": "443e04bc1a78940b3fcd5438d24b6c5f182a276d354a3108e738b193675de032",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "839de9798f377492eee68f82b202d7cd3544be83d799f6226a02f3678c9bb914",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 6366,
+          "output_tokens": 70
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "c9f0dd67c60a88de9c2c38956f2ffd7b394eb4d7568c73d1869b4182480faf64",
+      "answer": "The Permission to Appeal Application is refused.",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 6286,
+          "tpot_ms": 76,
+          "total_time_ms": 11935
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "1b446e196b4d1752241c8ff689a31ea705e98ad0c16b9d343c303664f72b64a1",
+              "page_numbers": [
+                2
+              ]
+            },
+            {
+              "doc_id": "3a574fc4f0baa5ec7ff0dcc822d7c55e4f9c493c24addc217c8df3d848c16fa5",
+              "page_numbers": [
+                2
+              ]
+            },
+            {
+              "doc_id": "f4c4d051d514270964adcf58e124569e396602340b7d9172671759de10a95897",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 10794,
+          "output_tokens": 158
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "84a7c3564026e528c0a5e6a86a72447b4be016d6aa26ce5ce87843c58a975629",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 4038,
+          "tpot_ms": 36,
+          "total_time_ms": 10373
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "58eae81bf668e7f6c58619f419a49b5e35e2e5c9c7475475ace28ec562580545",
+              "page_numbers": [
+                1,
+                2,
+                4
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 10054,
+          "output_tokens": 153
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "b9e824da7bc69fa5b2f4e989a4d591d9c5196362cc985f70a9c29e6f710ea817",
+      "answer": "The Application is dismissed. The Claim is to proceed to trial to be determined alongside the main issues.",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 4150,
+          "tpot_ms": 58,
+          "total_time_ms": 10671
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "d32e76d495ac7d855d805fb71682b98d254520e3799aa4529ebc983212648335",
+              "page_numbers": [
+                2,
+                9,
+                11
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 11008,
+          "output_tokens": 177
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "3ab3489605bc64891f36d9f3c7cf9c8608d08163b8673db41aa359097786b4bc",
+      "answer": 6.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 4452,
+          "tpot_ms": 44,
+          "total_time_ms": 10672
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "fbdd7f9dd299d83b1f398778da2e6765dfaaed62005667264734a1f76ec09071",
+              "page_numbers": [
+                7
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 10064,
+          "output_tokens": 169
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "ec0aa6992207b818c06e57dd28b08dad22ba2de3bd9e81a9a222e2fba9814406",
+      "answer": [
+        "Oleta"
+      ],
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 6574,
+          "tpot_ms": 52,
+          "total_time_ms": 14079
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "f4c4d051d514270964adcf58e124569e396602340b7d9172671759de10a95897",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 8513,
+          "output_tokens": 147
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "e9b7a25f2bca575390d55244471366612a7698321f47c4f1eb28724c8448ef7d",
+      "answer": false,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 3242,
+          "tpot_ms": 40,
+          "total_time_ms": 5324
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "443e04bc1a78940b3fcd5438d24b6c5f182a276d354a3108e738b193675de032",
+              "page_numbers": [
+                1
+              ]
+            },
+            {
+              "doc_id": "6248961b681ea0deb189f354be0c8286f35974dcdb211c13c921c3dd0e566a6e",
+              "page_numbers": [
+                1
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 3962,
+          "output_tokens": 65
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "d6eb4a640e0ad690e92c1463e15f5394d36d8f5bb407f0fa4d7413c456c7a5bd",
+      "answer": true,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 3930,
+          "tpot_ms": 38,
+          "total_time_ms": 9414
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "33bc02044716acdfedb164b065bdaec098aaadcae863c591f9931c88e7307d16",
+              "page_numbers": [
+                7
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 10120,
+          "output_tokens": 156
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "88f62d095220495f4a36b31f9f976e726aea7b53f6aead57084c6d8b36dc9814",
+      "answer": "CFI 057/2025 was issued earlier than CFI 067/2025.",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 1430,
+          "tpot_ms": 16,
+          "total_time_ms": 3618
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 1893,
+          "output_tokens": 73
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "dd736c7955429054fc55ea9eb55b96d3feb13e410f27a25651eefe5ecb536575",
+      "answer": "ENF 269/2023",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 1344,
+          "tpot_ms": 17,
+          "total_time_ms": 3531
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": []
+        },
+        "usage": {
+          "input_tokens": 1887,
+          "output_tokens": 63
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "84941458c4ade946dae84cf5ebc4abf362a6f6e6fec835ba5c43ad2d3b4b14d7",
+      "answer": null,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 9249,
+          "tpot_ms": 40,
+          "total_time_ms": 15480
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "1b446e196b4d1752241c8ff689a31ea705e98ad0c16b9d343c303664f72b64a1",
+              "page_numbers": [
+                1,
+                2
+              ]
+            },
+            {
+              "doc_id": "897ab23ed5a70034d3d708d871ad1da8bc7b6608d94b1ca46b5d578d985d3c13",
+              "page_numbers": [
+                2
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 9350,
+          "output_tokens": 153
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "ff1b357588e9b5881ec9b1558ede2892e7cbf42a6787a1cbb922b45318f66778",
+      "answer": 3.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 3966,
+          "tpot_ms": 37,
+          "total_time_ms": 5444
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "ff746f7b583490a80ba104361c0a82a1ebbf7ed9097cd03dc49d744cb5057761",
+              "page_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 8339,
+          "output_tokens": 55
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "f2ea23e9f861379a5c049830b57dcb499d4e6ce51013e64d49722b5845139e22",
+      "answer": 6.0,
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 4333,
+          "tpot_ms": 50,
+          "total_time_ms": 9352
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "72ea171147bf30326fe6fd2e6798f607c7cef4bf9d43761dbccd2f1b6a356849",
+              "page_numbers": [
+                20,
+                21,
+                23
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 9587,
+          "output_tokens": 175
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "095cb50318776a3b8ef11769cd941775694c194924783ee31109c25e3306600e",
+      "answer": "The DIFCA.",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 3459,
+          "tpot_ms": 53,
+          "total_time_ms": 7774
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "33bc02044716acdfedb164b065bdaec098aaadcae863c591f9931c88e7307d16",
+              "page_numbers": [
+                6
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 7077,
+          "output_tokens": 115
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "c2cf8224f1166780b25c77feede37101c514517ed61485c9ae31f6b1eb8c744b",
+      "answer": "The Registrar.",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 3749,
+          "tpot_ms": 39,
+          "total_time_ms": 8909
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "22442c5ee999e2519c68de908be511875a84f2b810ed540c2dcfcbcc65031434",
+              "page_numbers": [
+                2,
+                4,
+                18
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 9191,
+          "output_tokens": 192
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    },
+    {
+      "question_id": "cd69f5dfe06d2e7afac26c7b332ea925987864cc6730f90cce020d34d823abbe",
+      "answer": "The purpose of Article 9(1) of the Foundations Law is to allow the Board of Directors of the DIFCA to make Regulations to facilitate the administration of, or further the objects of, this Law.",
+      "telemetry": {
+        "timing": {
+          "ttft_ms": 4327,
+          "tpot_ms": 59,
+          "total_time_ms": 10078
+        },
+        "retrieval": {
+          "retrieved_chunk_pages": [
+            {
+              "doc_id": "22442c5ee999e2519c68de908be511875a84f2b810ed540c2dcfcbcc65031434",
+              "page_numbers": [
+                4,
+                7,
+                12
+              ]
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": 9820,
+          "output_tokens": 237
+        },
+        "model_name": "openai/gpt-4o-mini"
+      }
+    }
+  ]
+}

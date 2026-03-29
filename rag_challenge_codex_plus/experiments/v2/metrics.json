@@ -1,0 +1,14 @@
+{
+  "run_id": "v2",
+  "questions": 25,
+  "docs": 30,
+  "retrieval_mode": "vector_only",
+  "avg_ttft_ms": 999.48,
+  "avg_total_time_ms": 1203.76,
+  "avg_retrieved_pages": 5.96,
+  "null_rate": 0.32,
+  "input_tokens_total": 52923,
+  "output_tokens_total": 379,
+  "estimated_cost_usd": 0.0082,
+  "submission_path": "./experiments/v2/submission.json"
+}
