@@ -1,5 +1,7 @@
 # RAG Challenge 2026
 
+I tried to describe the entire process and save it in md files: chat*.md and others. Start with them.
+
 Two independent solutions for the [Agentic RAG Challenge](https://platform.agentic-challenge.ai/) — a competition to build the best Retrieval-Augmented Generation pipeline for answering questions over legal PDF documents.
 
 Both solutions were developed with AI coding assistants and explore different approaches to PDF parsing, hybrid retrieval, and answer generation.
